@@ -247,9 +247,22 @@ Located at `c:\Users\chris\Desktop\Mayra_projects_paper\anahuac_workflow\`:
 5. **Fluid Studio Booth & WebRTC Video**:
    * Configured `.daily-call-container .iframe-wrap iframe` with `height: clamp(380px, 62vh, 660px); max-width: 100%;` to scale seamlessly on laptops, iPads, and mobile phones.
 6. **Cache-Busting & Deployment**:
-   * Version query string bumped to `?v=20261022-scale-v4` across HTML, CSS, and JS links.
-   * Synced directly to Hetzner CX23 `/var/www/anahuac_portal/` via SFTP, followed by `systemctl reload nginx` and `systemctl restart anahuac-portal.service`.
    * Live deployment verified in browser automation across Desktop (1280px), Tablet (768px), and Mobile (390px) viewports on `https://anahuac-innovation.com/?tab=sparring`.
+
+---
+
+## 10. Official GitHub Repository & Documentation
+
+* **Repository Name**: **`AnahuacInnovation`**
+* **GitHub URL**: [**`https://github.com/westland/AnahuacInnovation`**](https://github.com/westland/AnahuacInnovation)
+* **Default Branch**: `main`
+* **Account**: `westland` (`westland@uic.edu`)
+* **Included Documentation & Assets**:
+  - [`README.md`](README.md): System overview, architecture diagram, module descriptions, quickstart guide, and badges.
+  - [`USER_MANUAL.md`](USER_MANUAL.md): Comprehensive Spanish & English User Manual with step-by-step instructions for Students, Faculty/Judges, and System Administrators.
+  - [`anahuac_workflow/`](anahuac_workflow/): Full automated pipeline, 450-student calibrated dataset, executive dossiers, and FastAPI web portal SPA.
+  - `.gitignore`: Configured to safeguard sensitive server passwords (`Tavus.txt`), environments, and Python build caches.
+
 
 
 
