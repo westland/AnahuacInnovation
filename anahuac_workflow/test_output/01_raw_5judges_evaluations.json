@@ -1,0 +1,482 @@
+[
+  {
+    "team_id": "MAYAB-201",
+    "team_name": "SargazoTech BioBlocks",
+    "semester": 2,
+    "project_title": "Bloques Térmicos de Construcción a Base de Sargazo y Cal Yucateca",
+    "mean_score": 81.4,
+    "std_dev": 5.9,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "El proyecto presenta un concepto innovador con potencial de mercado, pero falta una análisis financiero detallado y proyecciones claras sobre costos y precios en el contexto mexicano."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta un prototipo innovador con potencial para reducir la conductividad térmica, pero falta evidencia empírica de validación como entrevistas a usuarios o pruebas piloto que demuestren el interés y aceptación del mercado. Se recomienda realizar estudios adicionales antes de lanzar al mercado."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "El proyecto presenta una solución innovadora al problema del sargazo en la Riviera Maya, aprovechando la biomasa para la construcción de bloques térmicos eficientes. La propuesta es única y tiene un potencial significativo en el mercado local, aunque se requiere más investigación sobre su viabilidad a largo plazo y las barreras legales/regulatorias."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 85,
+        "feedback": "El equipo presenta de manera clara y estructurada su proyecto, destacando la innovación del uso del sargazo en la construcción. Sin embargo, falta profundizar más en el mercado objetivo y las ventajas competitivas frente a otros materiales constructivos."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 87,
+        "feedback": "El equipo SargazoTech BioBlocks ha presentado un prototipo físico funcional innovador que aborda problemas ambientales y de sostenibilidad en la construcción. La reducción significativa de conductividad térmica es un punto fuerte, así como el uso de biomasa local desalinizada. Sin embargo, se recomienda una mayor especificación sobre los detalles técnicos del proceso de fabricación y pruebas adicionales para validar su durabilidad a largo plazo."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Bloques Térmicos de Construcción a Base de Sargazo y Cal Yucateca\" (SargazoTech BioBlocks) ha sido evaluado por un panel de expertos en innovación, viabilidad financiera, validación del mercado, comunicación y auditoría académica. La calificación promedio obtenida es de 81.4 sobre 100 puntos, con una desviación estándar de 5.9, lo que indica un nivel generalmente positivo pero con áreas específicas para mejorar. Los jueces destacan la innovación y el potencial del proyecto en abordar problemas ambientales y de sostenibilidad en la construcción, sin embargo, se identificaron aspectos clave que requieren mayor profundización antes de avanzar a etapas posteriores.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces resaltan varias fortalezas del proyecto SargazoTech BioBlocks. En primer lugar, el uso innovador del sargazo como biomasa para la fabricación de bloques térmicos eficientes es un punto destacado que aborda problemas ambientales y de sostenibilidad en la Riviera Maya. Además, se reconoce la reducción significativa de la conductividad térmica lograda por el equipo, lo cual representa una ventaja competitiva frente a otros materiales constructivos tradicionales. Finalmente, los jueces destacan que el proyecto ha presentado un prototipo físico funcional y bien estructurado desde el punto de vista comunicativo.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar con éxito en las siguientes etapas del proceso, es imperativo que el equipo SargazoTech BioBlocks realice una serie de acciones críticas. En primer lugar, se recomienda elaborar un análisis financiero detallado y proyecciones claras sobre costos y precios en el contexto mexicano para mejorar la viabilidad económica del proyecto. Asimismo, es fundamental realizar estudios adicionales que incluyan entrevistas a usuarios potenciales y pruebas piloto para validar la aceptación del mercado y demostrar el interés de los consumidores finales. Finalmente, se sugiere profundizar en los detalles técnicos del proceso de fabricación y realizar pruebas adicionales para garantizar la durabilidad a largo plazo de los bloques térmicos. Estas acciones son esenciales para fortalecer las bases del proyecto y asegurar su éxito futuro.\n\nEste dictamen busca no solo proporcionar retroalimentación constructiva, sino también motivar al equipo SargazoTech BioBlocks a superar los desafíos identificados y continuar desarrollando un proyecto innovador que tenga un impacto significativo en la industria de la construcción sostenible."
+  },
+  {
+    "team_id": "MAYAB-202",
+    "team_name": "ApisDrone Yucatán",
+    "semester": 2,
+    "project_title": "Sensor Aéreo No Invasivo para Monitoreo de Colmenas Meliponas",
+    "mean_score": 79.6,
+    "std_dev": 5.08,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "El proyecto presenta un concepto innovador con potencial de mercado para comunidades apícolas mayas, pero falta una análisis detallado del costo-beneficio y proyecciones financieras a largo plazo. Se recomienda definir mejor el modelo de negocio y estrategia de precios en el contexto mexicano."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El proyecto presenta un prototipo innovador con potencial para mejorar la apicultura sostenible, pero falta evidencia empírica de validación como entrevistas o pruebas piloto con usuarios reales. Se recomienda realizar estas actividades para fortalecer el caso de uso."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "El proyecto presenta una solución innovadora para monitorear colmenas de abejas meliponas, lo que es único en la región y beneficioso para las comunidades mayas apícolas. La viabilidad técnica parece sólida con el uso de tecnologías como LoRaWAN y sensores MEMS e infrarrojos. Sin embargo, se requiere un análisis más detallado sobre las barreras de entrada y la sostenibilidad a largo plazo del modelo."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 78,
+        "feedback": "El pitch presenta de manera clara la problemática y la solución propuesta, pero falta profundizar en cómo se alcanzará el mercado objetivo y cuál es el valor diferencial frente a otras soluciones existentes. La seguridad en la presentación es adecuada."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El proyecto ApisDrone Yucatán presenta un prototipo innovador y funcional para monitorear colmenas de abejas meliponas, con una descripción clara y objetivos definidos. La integración de tecnologías como micrófonos MEMS e infrarrojo junto a la conexión LoRaWAN es coherente con el usuario objetivo. Se recomienda mejorar la documentación técnica del prototipo para un mejor entendimiento."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Sensor Aéreo No Invasivo para Monitoreo de Colmenas Meliponas\" (ApisDrone Yucatán) ha sido evaluado por el Comité de Jueces de la Universidad Anáhuac Mayab, resultando en una calificación promedio de 79.6/100 con un índice de desviación estándar de 5.08. La evaluación colegiada destaca que el proyecto presenta un concepto innovador y potencialmente beneficioso para las comunidades apícolas mayas, al ofrecer una solución tecnológica no invasiva basada en sensores MEMS e infrarrojos conectados a través de la tecnología LoRaWAN. Sin embargo, los jueces han identificado áreas clave que requieren fortalecimiento antes de avanzar a las siguientes etapas del concurso.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces destacan varias fortalezas en el proyecto ApisDrone Yucatán, incluyendo la innovación en el monitoreo no invasivo de colmenas meliponas y la viabilidad técnica del prototipo. El uso de tecnologías como micrófonos MEMS e infrarrojos junto con la conexión LoRaWAN es considerado coherente con las necesidades del usuario objetivo, especialmente en el contexto apícola maya. Además, se reconoce que el pitch presenta claramente la problemática y la solución propuesta, lo cual es un aspecto positivo para comunicar el valor diferencial del proyecto.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar en las siguientes etapas del concurso, se recomienda que los desarrolladores de ApisDrone Yucatán realicen una serie de acciones críticas. En primer lugar, es necesario realizar un análisis detallado del costo-beneficio y proyecciones financieras a largo plazo para definir mejor el modelo de negocio y estrategia de precios en el contexto mexicano. Asimismo, se sugiere llevar a cabo pruebas piloto con usuarios reales y recopilar evidencia empírica que valide la efectividad del prototipo en el mercado objetivo. Finalmente, es crucial mejorar la documentación técnica del prototipo para facilitar un mejor entendimiento de su funcionalidad y potencial impacto en las comunidades apícolas mayas.\n\nEste dictamen busca no solo proporcionar retroalimentación constructiva sino también motivar a los desarrolladores a superar los desafíos identificados, con el fin de fortalecer aún más la innovación y el impacto social del proyecto ApisDrone Yucatán."
+  },
+  {
+    "team_id": "MAYAB-203",
+    "team_name": "AguaViva Solar",
+    "semester": 2,
+    "project_title": "Desalinizador Portátil de Pozo Cenote por Destilación Solar",
+    "mean_score": 79,
+    "std_dev": 5.48,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "El proyecto presenta un concepto innovador con potencial de impacto social significativo, pero falta una evaluación detallada del costo-beneficio y la viabilidad financiera a largo plazo para los usuarios objetivo. Se recomienda un análisis más profundo sobre el CAC (Costo por Cliente Adquirido) y LTV (Valor Vitalicio del Cliente)."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta un prototipo físico funcional que resuelve una necesidad real de acceso a agua potable en comunidades rurales. Sin embargo, falta evidencia empírica sólida como entrevistas o pruebas con usuarios para validar completamente la demanda del mercado y las preferencias del usuario objetivo."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "El proyecto presenta una solución innovadora para la desalinización de agua utilizando energía solar, lo cual es muy relevante para las comunidades rurales del sureste mexicano. Sin embargo, se debe considerar un análisis más detallado sobre el costo y mantenimiento a largo plazo, así como la eficiencia en días nubosos o con menor radiación solar."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 75,
+        "feedback": "El pitch presenta de manera clara la problemática y la solución propuesta, pero falta profundizar en cómo se alcanzará la tracción del mercado objetivo y cuál es el 'ask' específico para avanzar. La seguridad en la presentación es adecuada."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El equipo AguaViva Solar ha presentado un prototipo funcional que aborda de manera efectiva la problemática del acceso al agua potable en comunidades rurales mediante el uso de energía solar. La unidad parabólica es una solución innovadora y compacta, con capacidad para destilar 8 litros diarios. Sin embargo, se recomienda mejorar la documentación técnica y realizar pruebas adicionales bajo condiciones reales para validar su eficiencia operativa."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Desalinizador Portátil de Pozo Cenote por Destilación Solar\" (AguaViva Solar) ha sido evaluado por el Comité de Jueces de la Universidad Anáhuac Mayab, resultando en una calificación promedio de 79/100 con una desviación estándar de 5.48. A pesar de que los jueces reconocen el potencial innovador y social del proyecto, se identificaron áreas clave para mejorar antes de avanzar a la siguiente fase. El equipo ha demostrado un compromiso significativo al presentar un prototipo funcional que aborda una necesidad real en comunidades rurales del sureste mexicano.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces destacan la innovación y relevancia de la solución propuesta, especialmente el uso de energía solar para la desalinización de agua, lo cual es una contribución valiosa en áreas donde el acceso a electricidad convencional es limitado. El prototipo funcional presentado demuestra que el equipo ha logrado un avance significativo en la conceptualización y construcción del producto. Además, se reconoce la claridad con la que se presenta la problemática y la solución propuesta durante la exposición oral.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para mejorar las calificaciones y avanzar de manera efectiva a la siguiente fase, el equipo AguaViva Solar debe enfocarse en tres áreas clave: primero, realizar un análisis detallado del costo-beneficio y viabilidad financiera a largo plazo; segundo, recopilar evidencia empírica sólida para validar completamente la demanda del mercado y las preferencias de los usuarios objetivo; y tercero, mejorar la documentación técnica y realizar pruebas adicionales bajo condiciones reales para validar su eficiencia operativa. Estas acciones son fundamentales para fortalecer el proyecto y asegurar su éxito en futuras etapas.\n\nEsperamos que estas recomendaciones sirvan como un punto de partida constructivo para el equipo AguaViva Solar, motivándolos a continuar avanzando con determinación hacia la resolución efectiva del problema planteado."
+  },
+  {
+    "team_id": "MAYAB-204",
+    "team_name": "CenoteClean Robotics",
+    "semester": 2,
+    "project_title": "Robot Acuático Superficial Autónomo para Remoción de Microplásticos en Cenotes",
+    "mean_score": 80.4,
+    "std_dev": 5.08,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "El proyecto presenta un concepto innovador con potencial de impacto ambiental significativo, pero requiere mayor detalle en la estructura financiera y proyecciones económicas para validar su viabilidad a largo plazo."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta un prototipo innovador con potencial para resolver problemas ambientales significativos, pero falta evidencia empírica de validación del mercado y pruebas piloto con usuarios reales."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "El proyecto presenta una solución innovadora para un problema ambiental específico del sureste de México, con potencial de escalamiento a otros cuerpos acuáticos. La viabilidad técnica es sólida, aunque se recomienda evaluar costos y mantenimiento operativo en el contexto local."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 82,
+        "feedback": "El pitch presenta de manera clara la problemática del microplástico en los cenotes y cómo su solución puede beneficiar a las comunidades locales. Sin embargo, falta profundizar más sobre el mercado objetivo y cuál es el valor agregado frente a otras soluciones existentes."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El equipo CenoteClean Robotics ha presentado un prototipo innovador que aborda directamente una problemática ambiental relevante en la región de Yucatán. El catamarán robótico con filtro hidrodinámico multicapa y navegación GPS autónoma es técnicamente sólido, aunque se recomienda mayor detalle sobre el proceso de reciclaje o disposición final del material recolectado. La integración de la recarga solar es un punto a favor en términos de sostenibilidad. Se espera una especificación más clara del firmware y los algoritmos de navegación para mejorar la autonomía operativa."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El Comité de Jueces ha evaluado el proyecto \"Robot Acuático Superficial Autónomo para Remoción de Microplásticos en Cenotes\" (CenoteClean Robotics) con un promedio ponderado de 80.4/100, reflejando una valoración generalmente positiva y constructiva. El equipo ha presentado un concepto innovador que aborda directamente la problemática del microplástico en los cenotes de Yucatán, con soluciones técnicas sólidas y potencial para generar impacto ambiental significativo. Sin embargo, es necesario mejorar ciertos aspectos relacionados con la viabilidad financiera, validación del mercado, detalles técnicos específicos y comunicación del valor agregado frente a otras alternativas existentes.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces han resaltado varias fortalezas clave en el proyecto CenoteClean Robotics. En primer lugar, la innovación técnica es destacada, con un prototipo que integra tecnologías como navegación GPS autónoma y recarga solar, lo cual es fundamental para su sostenibilidad operativa a largo plazo. Además, se reconoce la relevancia del problema ambiental abordado, así como el potencial de escalamiento a otros cuerpos acuáticos similares en México y más allá. Finalmente, los jueces valoran la claridad con que se presenta la problemática y cómo la solución propuesta puede beneficiar directamente a las comunidades locales.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar de manera efectiva hacia la siguiente fase del proyecto, el equipo CenoteClean Robotics debe enfocarse en tres áreas clave: 1) Desarrollar una estructura financiera más detallada y proyecciones económicas a largo plazo que respalden la viabilidad del proyecto. 2) Realizar pruebas piloto con usuarios reales para validar el mercado y recopilar datos empíricos sobre la aceptación y utilidad de la solución propuesta. 3) Especificar claramente los detalles técnicos relacionados con el firmware, algoritmos de navegación y procesos de reciclaje o disposición final del material recolectado para mejorar la autonomía operativa y eficiencia del sistema. Estas acciones son fundamentales para fortalecer las bases del proyecto y asegurar su éxito en futuras etapas.\n\nEl Comité de Jueces anima al equipo a continuar trabajando con entusiasmo y dedicación, reconociendo el potencial significativo que este proyecto tiene para contribuir a la resolución de problemas ambientales críticos."
+  },
+  {
+    "team_id": "MAYAB-205",
+    "team_name": "BioPellets Henequén",
+    "semester": 2,
+    "project_title": "Combustible Sólido de Alta Densidad Derivado del Bagazo de Henequén",
+    "mean_score": 75,
+    "std_dev": 7.38,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 72,
+        "feedback": "El proyecto presenta un concepto innovador con potencial de mercado local, pero requiere mayor análisis sobre costos operativos y financieros a largo plazo para asegurar la sostenibilidad económica."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 65,
+        "feedback": "El equipo presenta un prototipo innovador con potencial para sustituir combustibles tradicionales, pero falta evidencia empírica de validación del mercado como entrevistas o encuestas a los usuarios objetivo. Se recomienda realizar pruebas piloto y recopilar feedback directo."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 75,
+        "feedback": "El proyecto presenta una solución innovadora al aprovechar residuos locales como henequén y yuca, lo que puede ser beneficioso para la economía circular en Yucatán. Sin embargo, es necesario un análisis más detallado de las barreras de entrada y la competencia existente en el mercado de combustibles alternativos."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 78,
+        "feedback": "El equipo presenta de manera clara su prototipo y sus beneficios, pero falta profundizar en la estructura narrativa del pitch, especialmente en cómo aborda el problema y cuál es la tracción actual. Se recomienda enfatizar más sobre el mercado objetivo y las ventajas competitivas."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El equipo ha presentado un prototipo innovador que utiliza residuos de henequén para crear pellets con alto poder calorífico, lo cual es una solución sostenible y viable para el sector industrial en Yucatán. Sin embargo, falta especificar más detalles sobre la funcionalidad del prototipo y su comparación con combustibles alternativos existentes."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Combustible Sólido de Alta Densidad Derivado del Bagazo de Henequén\" (BioPellets Henequén) ha sido evaluado por un panel de jueces expertos en diversas áreas clave, quienes han otorgado una calificación promedio de 75 sobre 100. Este resultado refleja que el proyecto presenta un concepto innovador con potencial para contribuir significativamente a la economía circular y sostenibilidad ambiental en Yucatán. Sin embargo, los jueces identifican áreas críticas que requieren mayor análisis y desarrollo antes de avanzar hacia una fase más avanzada.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces destacaron varias fortalezas del proyecto. En primer lugar, el equipo ha demostrado un alto nivel de innovación al aprovechar residuos locales como el bagazo de henequén para crear pellets con alto poder calorífico, lo cual representa una solución sostenible y viable para el sector industrial en Yucatán. Además, la presentación del prototipo es clara y efectiva, transmitiendo eficazmente los beneficios del producto a los evaluadores.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para mejorar las calificaciones actuales y asegurar el éxito en futuras etapas, se recomienda que el equipo realice acciones específicas. En primer lugar, es crucial realizar un análisis más detallado de los costos operativos y financieros a largo plazo para garantizar la sostenibilidad económica del proyecto (Dr. Fernando Ruiz). Asimismo, se sugiere llevar a cabo pruebas piloto y recopilar feedback directo de usuarios objetivo para validar el mercado y demostrar la aceptación del producto entre los consumidores potenciales (Mtra. Sofía Morales). Finalmente, es necesario profundizar en la estructura narrativa del pitch, enfatizando más sobre el mercado objetivo y las ventajas competitivas del proyecto (Lic. Valeria Garza), así como especificar con mayor detalle la funcionalidad del prototipo y su comparación con combustibles alternativos existentes (Dr. Alejandro H.). Estas acciones serán fundamentales para fortalecer el proyecto y asegurar su éxito en las etapas posteriores.\n\nEsperamos que estas recomendaciones sean útiles para mejorar el proyecto y animamos al equipo a continuar trabajando con entusiasmo y dedicación hacia la consecución de sus objetivos."
+  },
+  {
+    "team_id": "MAYAB-401",
+    "team_name": "AgroCítricos AI",
+    "semester": 4,
+    "project_title": "Plataforma de Alerta Temprana de Huanglongbing (HLB) con Visión Computacional para Citricultores",
+    "mean_score": 82,
+    "std_dev": 5.2,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 78,
+        "feedback": "La propuesta presenta un modelo de negocio sólido con ingresos recurrentes a través de suscripciones y servicios adicionales, pero los costos operativos pueden ser elevados al mantener una flota de drones y servidores en la nube. Se necesita mayor detalle sobre el volumen de clientes potenciales y su capacidad para pagar las tarifas propuestas."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta una propuesta innovadora con potencial para resolver un problema real en la citricultura, pero falta evidencia empírica de validación como entrevistas a clientes potenciales o pruebas piloto. Se requiere más prueba de concepto antes de lanzar al mercado."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "La propuesta ofrece una solución innovadora para un problema específico de la citricultura en Yucatán, con alto potencial de impacto económico y social. La precisión del modelo es impresionante y el uso de tecnología multiespectral es único en la región. Sin embargo, se requiere mayor análisis sobre las barreras de entrada y cómo mantener una ventaja competitiva frente a posibles entrantes tecnológicos."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 85,
+        "feedback": "La propuesta presenta una solución innovadora con alto potencial de impacto para la citricultura, destacando su capacidad técnica y valor económico. Sin embargo, se recomienda mejorar la claridad en el pitch sobre cómo se integra la app móvil y los drones, así como detallar más las barreras a la entrada del mercado y estrategias de adopción por parte de los citricultores."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 87,
+        "feedback": "El proyecto presenta una propuesta de valor sólida con un alto nivel técnico, incluyendo la detección presintomática del HLB y la implementación de tecnología de visión computacional. Sin embargo, se requiere mayor detalle en las fuentes de ingresos y estructura de costos para evaluar su viabilidad financiera a largo plazo."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Plataforma de Alerta Temprana de Huanglongbing (HLB) con Visión Computacional para Citricultores\" ha sido evaluado por un panel de jueces expertos en diversas áreas relevantes, resultando en una calificación promedio de 82/100. Esta puntuación refleja que el proyecto presenta un alto nivel de innovación y potencial impacto en la citricultura, pero también identifica áreas clave para mejorar antes de su lanzamiento al mercado. Los jueces destacan tanto las fortalezas técnicas como los aspectos críticos que deben ser abordados para asegurar una implementación exitosa.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** El equipo ha demostrado un sólido entendimiento del problema y la necesidad de una solución innovadora en el contexto específico de Yucatán, con particular énfasis en la detección temprana del HLB. La propuesta incluye tecnología multiespectral avanzada para mejorar la precisión de la detección, lo cual es único en la región y potencialmente revolucionario para la industria citrícola. Además, el modelo de negocio propuesto ofrece ingresos recurrentes a través de suscripciones y servicios adicionales, con un alto potencial económico y social.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar en esta innovadora iniciativa, es imperativo que el equipo realice una validación más exhaustiva del mercado mediante entrevistas a clientes potenciales y pruebas piloto para demostrar la aceptabilidad y viabilidad de su solución. Asimismo, se recomienda un análisis detallado sobre las barreras de entrada en el mercado y estrategias específicas para mantener una ventaja competitiva frente a posibles entrantes tecnológicos. Finalmente, es crucial proporcionar mayor detalle en los aspectos financieros del proyecto, incluyendo la estructura de costos operativos y fuentes de ingresos, para evaluar su viabilidad financiera a largo plazo.\n\nEste dictamen busca no solo destacar las fortalezas actuales del proyecto sino también ofrecer un camino claro hacia una implementación exitosa. Se anima al equipo a abordar estas áreas críticas con la misma dedicación y creatividad que han demostrado hasta ahora, para convertir esta innovadora propuesta en una realidad benéfica para la citricultura de Yucatán."
+  },
+  {
+    "team_id": "MAYAB-402",
+    "team_name": "MayaLogix ColdChain",
+    "semester": 4,
+    "project_title": "Red Descentralizada de Micro-Bodegas Refrigeradas Compartidas para la Pesca Artesanal",
+    "mean_score": 81.6,
+    "std_dev": 4.77,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 78,
+        "feedback": "La propuesta presenta un modelo de negocio innovador con potencial para reducir la merma y mejorar la trazabilidad en la pesca artesanal. Sin embargo, falta una proyección financiera detallada que demuestre cómo los ingresos cubren los costos a largo plazo y aseguren rentabilidad. Además, se necesita un análisis más profundo sobre el precio del alquiler por metro cúbico refrigerado para garantizar la sostenibilidad económica."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El proyecto presenta una propuesta de valor clara para reducir la merma post-captura y garantizar trazabilidad, pero falta evidencia empírica de validación con entrevistas o pruebas piloto con cooperativas de pescadores. Se necesita más información sobre aceptación del precio premium por parte de restaurantes gourmet."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "La propuesta de MayaLogix ColdChain es innovadora y resuelve un problema significativo para la pesca artesanal en Yucatán, reduciendo merma post-captura y mejorando trazabilidad. Sin embargo, se requiere mayor análisis sobre las barreras de entrada y competencia existente con soluciones tradicionales como bodegas convencionales o proveedores de frío industrial."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 85,
+        "feedback": "El pitch presenta una propuesta de valor clara y relevante para las cooperativas de pescadores artesanales, con un modelo de negocio bien estructurado que incluye fuentes de ingresos y costos. Sin embargo, se recomienda mejorar la explicación del problema específico que resuelve y cómo la red descentralizada mejora la trazabilidad y el precio premium para los restaurantes gourmet."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El proyecto MayaLogix ColdChain presenta una propuesta innovadora que aborda de manera efectiva la reducción de merma en la pesca artesanal mediante un sistema de micro-bodegas refrigeradas compartidas. La estructura del modelo de negocio es sólida, con segmentos claros y coherentes entre las fuentes de ingreso y los costos asociados. Sin embargo, se recomienda una mayor profundización en la viabilidad financiera a largo plazo y en el análisis de competencia para fortalecer aún más la propuesta."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Red Descentralizada de Micro-Bodegas Refrigeradas Compartidas para la Pesca Artesanal\" (MayaLogix ColdChain) ha sido evaluado por un panel de jueces expertos en diversas áreas relevantes, quienes han otorgado una calificación promedio de 81.6/100 con una desviación estándar de 4.77. Este resultado indica que el proyecto es innovador y presenta soluciones efectivas para reducir la merma post-captura en la pesca artesanal, así como mejorar la trazabilidad del producto final. Sin embargo, los jueces han identificado áreas específicas que requieren mayor desarrollo para fortalecer aún más la propuesta.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces destacan varias fortalezas clave en el proyecto MayaLogix ColdChain. En primer lugar, se reconoce la innovación del modelo de negocio que busca resolver un problema significativo para la pesca artesanal mediante una solución descentralizada y compartida de micro-bodegas refrigeradas. Además, se valora la estructura clara y coherente del modelo de negocio, incluyendo fuentes de ingresos y costos asociados. Finalmente, los jueces destacan el potencial para mejorar la trazabilidad y reducir la merma post-captura, lo cual es fundamental para garantizar un producto fresco y de alta calidad.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar en la siguiente fase del proyecto MayaLogix ColdChain, se recomienda enfocarse en tres áreas críticas: a) Desarrollar una proyección financiera detallada que demuestre cómo los ingresos cubren los costos a largo plazo y aseguren rentabilidad. b) Realizar entrevistas o pruebas piloto con cooperativas de pescadores para validar la propuesta y obtener evidencia empírica sobre su aceptación. c) Analizar más profundamente las barreras de entrada y competencia existente, así como mejorar la explicación del problema específico que resuelve el proyecto y cómo la red descentralizada mejora la trazabilidad y el precio premium para los restaurantes gourmet. Estas acciones son fundamentales para fortalecer aún más la propuesta y asegurar su viabilidad a largo plazo.\n\nEsperamos que este feedback sea útil para mejorar continuamente el proyecto MayaLogix ColdChain, destacando sus fortalezas mientras se abordan las áreas de mejora identificadas. Continuemos trabajando juntos para impulsar innovaciones significativas en la pesca artesanal y contribuir al desarrollo sostenible de nuestra comunidad.\n\nAtentamente,\n\nEl Presidente del Comité de Jueces,\nUniversidad Anáhuac Mayab"
+  },
+  {
+    "team_id": "MAYAB-403",
+    "team_name": "FinanMaya Comunitaria",
+    "semester": 4,
+    "project_title": "Microcréditos Productivos Inteligentes para Mujeres Artesanas Vía WhatsApp Bot",
+    "mean_score": 81,
+    "std_dev": 5.48,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "El proyecto presenta un modelo financiero innovador con tasas de interés atractivas y una estructura de costos bien definida. Sin embargo, falta claridad en las proyecciones financieras a largo plazo y la sostenibilidad del modelo de negocio en el contexto mexicano."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El proyecto presenta una propuesta innovadora para evaluar el crédito mediante scoring psicométrico y pedidos pre-vendidos, lo cual es relevante para un segmento de mercado que carece de historial crediticio tradicional. Sin embargo, falta evidencia empírica como entrevistas o pruebas con usuarios reales para validar la efectividad del modelo de scoring propuesto."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "La propuesta ofrece un acceso innovador a microcréditos para mujeres artesanas, evaluando riesgos mediante scoring psicométrico y pre-ventas. Sin embargo, es necesario profundizar en la viabilidad técnica del bot de WhatsApp y las barreras regulatorias en el sector fintech."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 85,
+        "feedback": "La propuesta es innovadora y aborda un problema real para una comunidad específica. La estructura narrativa es clara, destacando la necesidad del financiamiento inclusivo y cómo el bot de WhatsApp facilita el acceso al crédito. Sin embargo, se recomienda profundizar en los detalles de la evaluación psicométrica y cuánto tiempo tomará implementar la solución."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El proyecto FinanMaya Comunitaria presenta un modelo de negocio innovador que aborda una necesidad real para las artesanas mayas en comunidades textiles. La propuesta de valor es clara y diferenciada, ofreciendo acceso a microcréditos sin historial crediticio tradicional mediante un sistema de scoring psicométrico y evaluación basada en pedidos pre-vendidos. Sin embargo, se recomienda una mayor especificación sobre cómo se integrará la alianza con el marketplace para asegurar la colocación del producto y mejorar la sostenibilidad financiera a largo plazo."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Microcréditos Productivos Inteligentes para Mujeres Artesanas Vía WhatsApp Bot\" (FinanMaya Comunitaria) ha sido evaluado por un panel de expertos que han destacado tanto sus fortalezas como áreas de mejora. La calificación promedio otorgada es de 81/100, con una desviación estándar de 5.48, lo cual indica un nivel generalmente positivo pero con oportunidades claras para refinar ciertos aspectos del proyecto. Los jueces han resaltado la innovación y relevancia del modelo propuesto en el contexto socioeconómico mexicano, especialmente su capacidad para abordar las necesidades de financiamiento inclusivo de mujeres artesanas que carecen de historial crediticio tradicional.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces han enfatizado varias fortalezas del proyecto. En primer lugar, el modelo financiero propuesto es innovador y presenta tasas de interés atractivas para las artesanas beneficiarias. Además, la estructura de costos bien definida y la evaluación crediticia basada en scoring psicométrico y pre-ventas son consideradas como elementos diferenciadores que permiten evaluar el riesgo de manera más precisa y justa para este segmento específico del mercado. Asimismo, se reconoce la claridad narrativa y la capacidad del proyecto para comunicar eficazmente su propuesta de valor a través de un enfoque storytelling bien estructurado.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar con éxito hacia la siguiente fase, es imperativo que el equipo de FinanMaya Comunitaria atienda las áreas identificadas por los jueces como necesarias para mejorar la robustez y viabilidad del proyecto. Es fundamental realizar pruebas piloto o entrevistas empíricas con usuarios reales para validar la efectividad del modelo de scoring psicométrico propuesto, así como profundizar en la evaluación técnica del bot de WhatsApp y las barreras regulatorias que podrían afectar su implementación. Además, se recomienda especificar más detalladamente cómo se integrará la alianza con el marketplace para asegurar la colocación del producto y mejorar la sostenibilidad financiera a largo plazo del modelo de negocio.\n\nEsperamos que estas recomendaciones sirvan como guía constructiva para fortalecer aún más su propuesta y contribuir a su éxito en futuras etapas."
+  },
+  {
+    "team_id": "MAYAB-404",
+    "team_name": "EcoVajilla Mayab",
+    "semester": 4,
+    "project_title": "Sustitución de Desechables de Unicel por Platos Compostables de Hoja de Plátano y Maíz",
+    "mean_score": 81,
+    "std_dev": 4.42,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 78,
+        "feedback": "El proyecto presenta un valor significativo al ofrecer productos biodegradables a precios competitivos, pero requiere mayor detalle en la proyección financiera y análisis de costos operativos para asegurar rentabilidad a largo plazo."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta una propuesta innovadora con un valor claro para clientes que buscan opciones sostenibles y económicas. Sin embargo, falta evidencia empírica de validación como entrevistas o pruebas con usuarios reales del segmento definido."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 85,
+        "feedback": "La propuesta de EcoVajilla Mayab es innovadora y resuelve un problema ambiental significativo para la industria turística del sureste mexicano, ofreciendo una alternativa más económica y biodegradable que los bioplásticos importados. Sin embargo, se deben considerar las barreras de entrada en términos de producción a gran escala y la estacionalidad de los materiales naturales como hojas de plátano."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 82,
+        "feedback": "La propuesta es innovadora y resuelve un problema ambiental relevante para la industria turística de Cancún y Riviera Maya. La estructura del pitch es clara, pero se recomienda enfatizar más en el diferencial competitivo frente a otros bioplásticos existentes y detallar cómo se logra el costo 15% menor."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El proyecto EcoVajilla Mayab presenta una propuesta de valor sólida y diferenciadora, con un segmento de clientes bien definido en la industria turística local. La estructura de costos es coherente y refleja una estrategia de producción eficiente. Sin embargo, se recomienda profundizar en las fuentes de ingresos adicionales y en el análisis de competencia para fortalecer aún más el modelo de negocio."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Sustitución de Desechables de Unicel por Platos Compostables de Hoja de Plátano y Maíz\" (EcoVajilla Mayab) ha sido evaluado por un panel colegiado compuesto por expertos en diversas áreas relevantes para la innovación empresarial. El proyecto obtuvo una calificación promedio de 81/100, con una desviación estándar de 4.42 puntos, lo que indica una valoración generalmente positiva y consistente entre los jueces. Los expertos destacan el potencial innovador del producto y su relevancia en la industria turística local, así como su compromiso con la sostenibilidad ambiental. Sin embargo, también se identificaron áreas clave para mejorar antes de avanzar a las siguientes etapas.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces resaltan varias fortalezas del proyecto EcoVajilla Mayab. En primer lugar, el equipo ha presentado una propuesta innovadora que ofrece soluciones biodegradables a precios competitivos en comparación con los productos de unicel y bioplásticos importados. Esto es particularmente relevante para la industria turística local, donde existe un creciente interés por opciones más sostenibles y económicas. En segundo lugar, el proyecto cuenta con una estructura financiera coherente que refleja una estrategia de producción eficiente, lo cual es fundamental para garantizar la viabilidad a largo plazo del modelo empresarial.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para fortalecer aún más el proyecto EcoVajilla Mayab y asegurar su éxito en las siguientes etapas, se recomienda que el equipo realice una serie de acciones críticas. En primer lugar, es necesario profundizar en la proyección financiera y realizar un análisis detallado de los costos operativos para garantizar la rentabilidad a largo plazo del proyecto. Además, se sugiere recopilar evidencia empírica mediante entrevistas o pruebas con usuarios reales del segmento definido para validar el mercado y mejorar la propuesta de valor. Finalmente, es crucial analizar las barreras de entrada en términos de producción a gran escala y considerar fuentes de ingresos adicionales que puedan fortalecer aún más el modelo de negocio.\n\nEl equipo debe abordar estas áreas con urgencia para presentar un proyecto sólido y diferenciador en la siguiente fase. A pesar de los desafíos identificados, el potencial innovador del EcoVajilla Mayab es significativo y ofrece una oportunidad única para contribuir a la sostenibilidad ambiental en la industria turística local. Se anima al equipo a continuar trabajando con entusiasmo y rigor académico para superar estos desafíos y avanzar hacia el éxito.\n\n---\n\nEste dictamen oficial proporciona un resumen claro y constructivo de las evaluaciones recibidas, destacando tanto fortalezas como áreas de mejora necesarias para el proyecto EcoVajilla Mayab."
+  },
+  {
+    "team_id": "MAYAB-405",
+    "team_name": "K-Chek Salud Escolar",
+    "semester": 4,
+    "project_title": "Kioscos Digitales de Triaje Metabólico Preventivo y Nutrición en Colegios",
+    "mean_score": 79,
+    "std_dev": 5.48,
+    "has_high_discrepancy": false,
+    "discrepancies": [],
+    "individual_judges": [
+      {
+        "judge_id": "judge_finance",
+        "judge_name": "Dr. Fernando Ruiz (Juez de Viabilidad Financiera y Economía Unitaria)",
+        "role": "Inversionista Ángel y Experto en Finanzas",
+        "score": 75,
+        "feedback": "La propuesta tiene un modelo de negocio sólido con ingresos recurrentes por membresía y potencial de patrocinios, pero requiere mayor detalle en la estructura de costos y proyecciones financieras a largo plazo. Además, es necesario definir claramente el margen de contribución y el CAC para validar su viabilidad financiera."
+      },
+      {
+        "judge_id": "judge_market",
+        "judge_name": "Mtra. Sofía Morales (Juez de Validación de Mercado y Usuario)",
+        "role": "Especialista en Investigación de Usuarios y Design Thinking",
+        "score": 75,
+        "feedback": "El equipo presenta una propuesta innovadora con potencial para mejorar la salud infantil, pero falta evidencia empírica de validación del problema y aceptación del mercado. Se recomienda realizar entrevistas o encuestas a padres y colegios para validar la necesidad del producto."
+      },
+      {
+        "judge_id": "judge_innovation",
+        "judge_name": "Ing. Carlos Méndez (Juez de Innovación y Diferenciación)",
+        "role": "Director de Tecnología y Mentor de Startups",
+        "score": 75,
+        "feedback": "La propuesta de K-Chek Salud Escolar es innovadora al combinar gamificación con la detección temprana de riesgos metabólicos en niños, lo que puede ser un valor significativo para colegios y padres preocupados por la salud de sus hijos. Sin embargo, hay barreras importantes como el costo elevado del kiosco y la necesidad de cumplir con regulaciones médicas rigurosas (HIPAA/Cofepris), lo cual podría limitar su implementación a nivel masivo."
+      },
+      {
+        "judge_id": "judge_pitch",
+        "judge_name": "Lic. Valeria Garza (Juez de Comunicación y Storytelling)",
+        "role": "Consultora de Comunicación y Pitch Coach",
+        "score": 85,
+        "feedback": "La propuesta es clara y estructurada, con un hook efectivo que destaca la importancia de la detección temprana en niños. Sin embargo, se necesita mayor detalle sobre cómo se integra la gamificación y cuál es el alcance del software hipaa/cofepris."
+      },
+      {
+        "judge_id": "judge_auditor",
+        "judge_name": "Dr. Alejandro H. (Auditor Académico de Rúbrica Anáhuac)",
+        "role": "Coordinador Académico de Emprendimiento e Innovación",
+        "score": 85,
+        "feedback": "El proyecto presenta una propuesta de valor clara y relevante para la prevención de enfermedades metabólicas infantiles mediante un enfoque innovador que combina tecnología con gamificación. La segmentación del mercado está bien definida, aunque podría ampliarse a colegios públicos también. Las fuentes de ingresos son viables y el modelo de negocio es coherente. Sin embargo, se recomienda una mayor especificación sobre cómo se estructuran los costos operativos y la rentabilidad a largo plazo."
+      }
+    ],
+    "meta_verdict": "**Dictamen Oficial de Retroalimentación**\n\n1. **Veredicto Colegiado y Evaluación General:** El proyecto \"Kioscos Digitales de Triaje Metabólico Preventivo y Nutrición en Colegios\" (K-Chek Salud Escolar) ha sido evaluado por un panel de jueces expertos, quienes han otorgado una calificación promedio de 79/100 con una desviación estándar de 5.48. La propuesta es considerada sólida y presenta un modelo de negocio innovador que tiene el potencial de mejorar significativamente la salud infantil a través del triaje metabólico preventivo y la nutrición en entornos escolares. Sin embargo, los jueces han identificado áreas clave que requieren mayor detalle y validación para asegurar su viabilidad financiera, aceptación del mercado y cumplimiento regulatorio.\n\n2. **Principales Fortalezas Destacadas por los Jueces:** Los jueces destacan la innovación de K-Chek Salud Escolar al combinar gamificación con la detección temprana de riesgos metabólicos en niños, lo cual puede ser un valor significativo para colegios y padres preocupados por la salud de sus hijos. Además, el proyecto presenta una propuesta de valor clara y relevante que aborda la prevención de enfermedades metabólicas infantiles mediante un enfoque innovador que combina tecnología con gamificación. La segmentación del mercado está bien definida, y las fuentes de ingresos son viables.\n\n3. **Acciones Críticas Obligatorias para la Siguiente Fase:** Para avanzar a la siguiente fase, es imperativo realizar una validación empírica más profunda del problema y la aceptación del mercado mediante entrevistas o encuestas a padres y colegios. Asimismo, se debe proporcionar mayor detalle en la estructura de costos operativos y proyecciones financieras a largo plazo para validar su viabilidad financiera. Es fundamental definir claramente el margen de contribución y el CAC (Costo por Adquisición de Cliente). Además, es necesario especificar cómo se integrará la gamificación en el software y cuál será el alcance del cumplimiento con las regulaciones médicas pertinentes (HIPAA/Cofepris) para garantizar que el proyecto cumpla con los estándares regulatorios requeridos."
+  }
+]

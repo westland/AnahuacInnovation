@@ -1,0 +1,451 @@
+rank,team_id,team_name,semester,project_title,raw_mean_score,calibrated_score,is_finalist
+1,ANH-SEM4-275,Venture 275 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,98.8,100.0,True
+2,ANH-SEM2-215,Equipo 215 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,97.0,98.7,True
+3,ANH-SEM4-369,Venture 369 (Turismo),4,Turismo Regenerativo - Modelo Escalable,97.0,98.7,True
+4,ANH-SEM4-326,Venture 326 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,95.6,97.37,True
+5,ANH-SEM2-088,Equipo 088 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,95.4,97.18,True
+6,ANH-SEM4-305,Venture 305 (Economía),4,Economía Circular & Empaques - Modelo Escalable,95.2,96.99,True
+7,ANH-SEM2-111,Equipo 111 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,95.0,96.8,True
+8,ANH-SEM4-241,Venture 241 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,94.4,96.23,True
+9,ANH-SEM4-272,Venture 272 (Economía),4,Economía Circular & Empaques - Modelo Escalable,94.4,96.23,True
+10,ANH-SEM4-265,Venture 265 (Turismo),4,Turismo Regenerativo - Modelo Escalable,93.4,95.28,True
+11,ANH-SEM2-071,Equipo 071 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,93.2,95.09,True
+12,ANH-SEM2-118,Equipo 118 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,93.2,95.09,True
+13,ANH-SEM4-430,Venture 430 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,93.2,95.09,True
+14,ANH-SEM4-372,Venture 372 (Economía),4,Economía Circular & Empaques - Modelo Escalable,92.8,94.71,True
+15,ANH-SEM4-268,Venture 268 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,92.4,94.33,True
+16,ANH-SEM2-132,Equipo 132 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,92.2,94.15,True
+17,ANH-SEM4-249,Venture 249 (Economía),4,Economía Circular & Empaques - Modelo Escalable,92.0,93.96,True
+18,ANH-SEM4-414,Venture 414 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,91.6,93.58,True
+19,ANH-SEM4-395,Venture 395 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,91.0,93.01,True
+20,ANH-SEM4-350,Venture 350 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,90.8,92.82,True
+21,ANH-SEM2-015,Equipo 015 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,90.6,92.63,True
+22,ANH-SEM4-361,Venture 361 (Economía),4,Economía Circular & Empaques - Modelo Escalable,90.6,92.63,True
+23,ANH-SEM2-165,Equipo 165 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,90.4,92.44,True
+24,ANH-SEM4-271,Venture 271 (Turismo),4,Turismo Regenerativo - Modelo Escalable,90.4,92.44,True
+25,ANH-SEM2-016,Equipo 016 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,90.2,92.25,True
+26,ANH-SEM4-340,Venture 340 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,90.2,92.25,True
+27,ANH-SEM2-207,Equipo 207 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,90.0,92.06,True
+28,ANH-SEM2-190,Equipo 190 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,89.8,91.87,True
+29,ANH-SEM4-357,Venture 357 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,89.6,91.68,True
+30,ANH-SEM4-247,Venture 247 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,89.4,91.49,True
+31,ANH-SEM2-162,Equipo 162 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,89.2,91.3,True
+32,ANH-SEM4-260,Venture 260 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,89.2,91.3,True
+33,ANH-SEM2-093,Equipo 093 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,88.8,90.92,True
+34,ANH-SEM4-309,Venture 309 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,88.8,90.92,True
+35,ANH-SEM2-142,Equipo 142 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 3,88.2,90.35,True
+36,ANH-SEM2-069,Equipo 069 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,88.0,90.16,True
+37,ANH-SEM2-042,Equipo 042 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 3,87.8,89.97,True
+38,ANH-SEM4-370,Venture 370 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,87.8,89.97,True
+39,ANH-SEM2-009,Equipo 009 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,87.4,89.59,True
+40,ANH-SEM2-187,Equipo 187 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,87.2,89.4,True
+41,ANH-SEM4-255,Venture 255 (Economía),4,Economía Circular & Empaques - Modelo Escalable,87.2,89.4,True
+42,ANH-SEM2-091,Equipo 091 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,86.8,89.03,True
+43,ANH-SEM2-058,Equipo 058 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,86.6,88.84,True
+44,ANH-SEM2-072,Equipo 072 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,86.6,88.84,True
+45,ANH-SEM4-330,Venture 330 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,86.6,88.84,True
+46,ANH-SEM2-092,Equipo 092 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,86.4,88.65,True
+47,ANH-SEM4-358,Venture 358 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,86.4,88.65,True
+48,ANH-SEM4-317,Venture 317 (Turismo),4,Turismo Regenerativo - Modelo Escalable,86.2,88.46,True
+49,ANH-SEM4-379,Venture 379 (Turismo),4,Turismo Regenerativo - Modelo Escalable,86.0,88.27,True
+50,ANH-SEM2-025,Equipo 025 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,85.8,88.08,True
+51,ANH-SEM2-193,Equipo 193 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,85.8,88.08,False
+52,ANH-SEM2-214,Equipo 214 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,85.8,88.08,False
+53,ANH-SEM2-189,Equipo 189 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,85.6,87.89,False
+54,ANH-SEM4-434,Venture 434 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,85.0,87.32,False
+55,ANH-SEM4-380,Venture 380 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,84.8,87.13,False
+56,ANH-SEM4-304,Venture 304 (Economía),4,Economía Circular & Empaques - Modelo Escalable,84.6,86.94,False
+57,ANH-SEM2-108,Equipo 108 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,84.4,86.75,False
+58,ANH-SEM2-178,Equipo 178 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,84.4,86.75,False
+59,ANH-SEM4-426,Venture 426 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,84.2,86.56,False
+60,ANH-SEM4-329,Venture 329 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,84.0,86.37,False
+61,ANH-SEM4-347,Venture 347 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,84.0,86.37,False
+62,ANH-SEM2-070,Equipo 070 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,83.8,86.18,False
+63,ANH-SEM2-203,Equipo 203 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,83.6,85.99,False
+64,ANH-SEM2-153,Equipo 153 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,83.2,85.61,False
+65,ANH-SEM4-261,Venture 261 (Turismo),4,Turismo Regenerativo - Modelo Escalable,83.2,85.61,False
+66,ANH-SEM4-308,Venture 308 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,83.2,85.61,False
+67,ANH-SEM4-421,Venture 421 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,83.2,85.61,False
+68,ANH-SEM4-448,Venture 448 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,83.2,85.61,False
+69,ANH-SEM2-223,Equipo 223 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,83.0,85.42,False
+70,ANH-SEM4-445,Venture 445 (Turismo),4,Turismo Regenerativo - Modelo Escalable,83.0,85.42,False
+71,ANH-SEM4-312,Venture 312 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,82.4,84.85,False
+72,ANH-SEM2-023,Equipo 023 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,82.2,84.66,False
+73,ANH-SEM4-412,Venture 412 (Economía),4,Economía Circular & Empaques - Modelo Escalable,82.2,84.66,False
+74,ANH-SEM2-205,Equipo 205 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,82.0,84.48,False
+75,ANH-SEM4-338,Venture 338 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,82.0,84.48,False
+76,ANH-SEM2-029,Equipo 029 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,81.8,84.29,False
+77,ANH-SEM4-295,Venture 295 (Turismo),4,Turismo Regenerativo - Modelo Escalable,81.8,84.29,False
+78,ANH-SEM2-060,Equipo 060 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,81.6,84.1,False
+79,ANH-SEM4-373,Venture 373 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,81.6,84.1,False
+80,ANH-SEM2-089,Equipo 089 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,81.4,83.91,False
+81,ANH-SEM2-105,Equipo 105 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,81.4,83.91,False
+82,ANH-SEM2-150,Equipo 150 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 3,81.4,83.91,False
+83,ANH-SEM2-183,Equipo 183 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,81.2,83.72,False
+84,ANH-SEM4-435,Venture 435 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,81.2,83.72,False
+85,ANH-SEM2-146,Equipo 146 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,81.0,83.53,False
+86,ANH-SEM4-424,Venture 424 (Turismo),4,Turismo Regenerativo - Modelo Escalable,81.0,83.53,False
+87,ANH-SEM4-363,Venture 363 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,80.8,83.34,False
+88,ANH-SEM4-267,Venture 267 (Turismo),4,Turismo Regenerativo - Modelo Escalable,80.6,83.15,False
+89,ANH-SEM2-050,Equipo 050 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,80.4,82.96,False
+90,ANH-SEM2-100,Equipo 100 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,80.4,82.96,False
+91,ANH-SEM4-297,Venture 297 (Turismo),4,Turismo Regenerativo - Modelo Escalable,80.2,82.77,False
+92,ANH-SEM4-364,Venture 364 (Economía),4,Economía Circular & Empaques - Modelo Escalable,80.2,82.77,False
+93,ANH-SEM4-228,Venture 228 (Turismo),4,Turismo Regenerativo - Modelo Escalable,80.0,82.58,False
+94,ANH-SEM4-311,Venture 311 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,80.0,82.58,False
+95,ANH-SEM4-407,Venture 407 (Economía),4,Economía Circular & Empaques - Modelo Escalable,80.0,82.58,False
+96,ANH-SEM2-020,Equipo 020 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,79.8,82.39,False
+97,ANH-SEM2-043,Equipo 043 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,79.8,82.39,False
+98,ANH-SEM2-202,Equipo 202 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,79.8,82.39,False
+99,ANH-SEM4-243,Venture 243 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,79.8,82.39,False
+100,ANH-SEM2-206,Equipo 206 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,79.6,82.2,False
+101,ANH-SEM2-011,Equipo 011 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,79.4,82.01,False
+102,ANH-SEM2-090,Equipo 090 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,79.4,82.01,False
+103,ANH-SEM2-169,Equipo 169 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,79.4,82.01,False
+104,ANH-SEM4-237,Venture 237 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,79.4,82.01,False
+105,ANH-SEM4-339,Venture 339 (Economía),4,Economía Circular & Empaques - Modelo Escalable,79.4,82.01,False
+106,ANH-SEM2-080,Equipo 080 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,79.2,81.82,False
+107,ANH-SEM2-102,Equipo 102 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,79.2,81.82,False
+108,ANH-SEM2-172,Equipo 172 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,79.2,81.82,False
+109,ANH-SEM2-175,Equipo 175 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,79.2,81.82,False
+110,ANH-SEM4-321,Venture 321 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,79.2,81.82,False
+111,ANH-SEM2-120,Equipo 120 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,79.0,81.63,False
+112,ANH-SEM2-167,Equipo 167 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,79.0,81.63,False
+113,ANH-SEM2-041,Equipo 041 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,78.8,81.44,False
+114,ANH-SEM2-095,Equipo 095 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,78.6,81.25,False
+115,ANH-SEM2-131,Equipo 131 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,78.6,81.25,False
+116,ANH-SEM4-356,Venture 356 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,78.6,81.25,False
+117,ANH-SEM4-314,Venture 314 (Economía),4,Economía Circular & Empaques - Modelo Escalable,78.4,81.06,False
+118,ANH-SEM2-051,Equipo 051 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,78.2,80.87,False
+119,ANH-SEM4-287,Venture 287 (Turismo),4,Turismo Regenerativo - Modelo Escalable,78.2,80.87,False
+120,ANH-SEM4-362,Venture 362 (Turismo),4,Turismo Regenerativo - Modelo Escalable,78.2,80.87,False
+121,ANH-SEM2-179,Equipo 179 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,78.0,80.68,False
+122,ANH-SEM4-343,Venture 343 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,78.0,80.68,False
+123,ANH-SEM2-014,Equipo 014 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,77.8,80.49,False
+124,ANH-SEM2-019,Equipo 019 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,77.8,80.49,False
+125,ANH-SEM4-334,Venture 334 (Economía),4,Economía Circular & Empaques - Modelo Escalable,77.8,80.49,False
+126,ANH-SEM4-419,Venture 419 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,77.8,80.49,False
+127,ANH-SEM2-018,Equipo 018 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,77.6,80.3,False
+128,ANH-SEM2-052,Equipo 052 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,77.6,80.3,False
+129,ANH-SEM2-117,Equipo 117 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,77.6,80.3,False
+130,ANH-SEM4-245,Venture 245 (Economía),4,Economía Circular & Empaques - Modelo Escalable,77.6,80.3,False
+131,ANH-SEM4-322,Venture 322 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,77.4,80.11,False
+132,ANH-SEM2-107,Equipo 107 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,77.2,79.92,False
+133,ANH-SEM4-447,Venture 447 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,77.2,79.92,False
+134,ANH-SEM2-115,Equipo 115 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,77.0,79.73,False
+135,ANH-SEM4-300,Venture 300 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,77.0,79.73,False
+136,ANH-SEM2-053,Equipo 053 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,76.8,79.55,False
+137,ANH-SEM2-087,Equipo 087 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,76.8,79.55,False
+138,ANH-SEM4-232,Venture 232 (Economía),4,Economía Circular & Empaques - Modelo Escalable,76.8,79.55,False
+139,ANH-SEM4-259,Venture 259 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,76.8,79.55,False
+140,ANH-SEM4-345,Venture 345 (Turismo),4,Turismo Regenerativo - Modelo Escalable,76.8,79.55,False
+141,ANH-SEM4-437,Venture 437 (Turismo),4,Turismo Regenerativo - Modelo Escalable,76.8,79.55,False
+142,ANH-SEM2-210,Equipo 210 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,76.4,79.17,False
+143,ANH-SEM2-049,Equipo 049 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,76.2,78.98,False
+144,ANH-SEM4-384,Venture 384 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,76.2,78.98,False
+145,ANH-SEM4-405,Venture 405 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,76.2,78.98,False
+146,ANH-SEM2-094,Equipo 094 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,76.0,78.79,False
+147,ANH-SEM2-130,Equipo 130 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,76.0,78.79,False
+148,ANH-SEM2-136,Equipo 136 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,76.0,78.79,False
+149,ANH-SEM2-138,Equipo 138 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,76.0,78.79,False
+150,ANH-SEM4-239,Venture 239 (Turismo),4,Turismo Regenerativo - Modelo Escalable,76.0,78.79,False
+151,ANH-SEM4-299,Venture 299 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,76.0,78.79,False
+152,ANH-SEM4-344,Venture 344 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,76.0,78.79,False
+153,ANH-SEM4-374,Venture 374 (Turismo),4,Turismo Regenerativo - Modelo Escalable,76.0,78.79,False
+154,ANH-SEM2-005,Equipo 005 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,75.8,78.6,False
+155,ANH-SEM2-157,Equipo 157 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,75.8,78.6,False
+156,ANH-SEM2-144,Equipo 144 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,75.6,78.41,False
+157,ANH-SEM2-149,Equipo 149 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,75.6,78.41,False
+158,ANH-SEM4-284,Venture 284 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,75.6,78.41,False
+159,ANH-SEM2-171,Equipo 171 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,75.4,78.22,False
+160,ANH-SEM2-200,Equipo 200 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,75.4,78.22,False
+161,ANH-SEM4-390,Venture 390 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,75.4,78.22,False
+162,ANH-SEM2-032,Equipo 032 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,75.2,78.03,False
+163,ANH-SEM4-316,Venture 316 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,75.2,78.03,False
+164,ANH-SEM4-318,Venture 318 (Turismo),4,Turismo Regenerativo - Modelo Escalable,75.2,78.03,False
+165,ANH-SEM4-331,Venture 331 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,75.2,78.03,False
+166,ANH-SEM4-423,Venture 423 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,75.2,78.03,False
+167,ANH-SEM4-293,Venture 293 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,75.0,77.84,False
+168,ANH-SEM4-418,Venture 418 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,75.0,77.84,False
+169,ANH-SEM4-433,Venture 433 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,75.0,77.84,False
+170,ANH-SEM2-065,Equipo 065 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,74.8,77.65,False
+171,ANH-SEM2-121,Equipo 121 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,74.8,77.65,False
+172,ANH-SEM2-134,Equipo 134 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 3,74.8,77.65,False
+173,ANH-SEM4-413,Venture 413 (Turismo),4,Turismo Regenerativo - Modelo Escalable,74.8,77.65,False
+174,ANH-SEM4-440,Venture 440 (Economía),4,Economía Circular & Empaques - Modelo Escalable,74.8,77.65,False
+175,ANH-SEM4-442,Venture 442 (Economía),4,Economía Circular & Empaques - Modelo Escalable,74.8,77.65,False
+176,ANH-SEM2-056,Equipo 056 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,74.6,77.46,False
+177,ANH-SEM2-140,Equipo 140 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,74.6,77.46,False
+178,ANH-SEM2-174,Equipo 174 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,74.6,77.46,False
+179,ANH-SEM4-296,Venture 296 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,74.6,77.46,False
+180,ANH-SEM2-160,Equipo 160 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,74.4,77.27,False
+181,ANH-SEM2-218,Equipo 218 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,74.4,77.27,False
+182,ANH-SEM4-289,Venture 289 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,74.4,77.27,False
+183,ANH-SEM2-054,Equipo 054 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,74.2,77.08,False
+184,ANH-SEM2-204,Equipo 204 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,74.2,77.08,False
+185,ANH-SEM4-342,Venture 342 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,74.2,77.08,False
+186,ANH-SEM4-381,Venture 381 (Economía),4,Economía Circular & Empaques - Modelo Escalable,74.2,77.08,False
+187,ANH-SEM2-076,Equipo 076 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,74.0,76.89,False
+188,ANH-SEM4-230,Venture 230 (Turismo),4,Turismo Regenerativo - Modelo Escalable,74.0,76.89,False
+189,ANH-SEM2-124,Equipo 124 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,73.8,76.7,False
+190,ANH-SEM2-128,Equipo 128 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,73.8,76.7,False
+191,ANH-SEM2-033,Equipo 033 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,73.6,76.51,False
+192,ANH-SEM2-037,Equipo 037 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,73.6,76.51,False
+193,ANH-SEM2-044,Equipo 044 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,73.6,76.51,False
+194,ANH-SEM2-127,Equipo 127 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,73.6,76.51,False
+195,ANH-SEM2-221,Equipo 221 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,73.6,76.51,False
+196,ANH-SEM4-328,Venture 328 (Economía),4,Economía Circular & Empaques - Modelo Escalable,73.6,76.51,False
+197,ANH-SEM2-086,Equipo 086 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,73.4,76.32,False
+198,ANH-SEM2-147,Equipo 147 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,73.4,76.32,False
+199,ANH-SEM2-186,Equipo 186 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,73.4,76.32,False
+200,ANH-SEM4-256,Venture 256 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,73.4,76.32,False
+201,ANH-SEM4-333,Venture 333 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,73.4,76.32,False
+202,ANH-SEM4-341,Venture 341 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,73.4,76.32,False
+203,ANH-SEM4-386,Venture 386 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,73.4,76.32,False
+204,ANH-SEM4-427,Venture 427 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,73.4,76.32,False
+205,ANH-SEM2-038,Equipo 038 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,73.2,76.13,False
+206,ANH-SEM2-133,Equipo 133 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 3,73.2,76.13,False
+207,ANH-SEM4-393,Venture 393 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,73.2,76.13,False
+208,ANH-SEM2-109,Equipo 109 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,73.0,75.94,False
+209,ANH-SEM2-152,Equipo 152 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,73.0,75.94,False
+210,ANH-SEM4-303,Venture 303 (Economía),4,Economía Circular & Empaques - Modelo Escalable,73.0,75.94,False
+211,ANH-SEM4-368,Venture 368 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,73.0,75.94,False
+212,ANH-SEM2-022,Equipo 022 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,72.8,75.75,False
+213,ANH-SEM2-116,Equipo 116 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,72.8,75.75,False
+214,ANH-SEM2-177,Equipo 177 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,72.8,75.75,False
+215,ANH-SEM2-196,Equipo 196 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,72.8,75.75,False
+216,ANH-SEM4-234,Venture 234 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,72.8,75.75,False
+217,ANH-SEM4-382,Venture 382 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,72.8,75.75,False
+218,ANH-SEM2-099,Equipo 099 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,72.6,75.56,False
+219,ANH-SEM4-428,Venture 428 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,72.6,75.56,False
+220,ANH-SEM4-431,Venture 431 (Turismo),4,Turismo Regenerativo - Modelo Escalable,72.6,75.56,False
+221,ANH-SEM4-443,Venture 443 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,72.6,75.56,False
+222,ANH-SEM2-074,Equipo 074 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,72.4,75.37,False
+223,ANH-SEM2-168,Equipo 168 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,72.4,75.37,False
+224,ANH-SEM4-238,Venture 238 (Economía),4,Economía Circular & Empaques - Modelo Escalable,72.4,75.37,False
+225,ANH-SEM4-291,Venture 291 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,72.4,75.37,False
+226,ANH-SEM4-352,Venture 352 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,72.4,75.37,False
+227,ANH-SEM4-375,Venture 375 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,72.4,75.37,False
+228,ANH-SEM4-397,Venture 397 (Economía),4,Economía Circular & Empaques - Modelo Escalable,72.4,75.37,False
+229,ANH-SEM4-425,Venture 425 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,72.4,75.37,False
+230,ANH-SEM2-159,Equipo 159 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,72.2,75.18,False
+231,ANH-SEM2-199,Equipo 199 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,72.2,75.18,False
+232,ANH-SEM4-446,Venture 446 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,72.2,75.18,False
+233,ANH-SEM4-250,Venture 250 (Turismo),4,Turismo Regenerativo - Modelo Escalable,72.0,74.99,False
+234,ANH-SEM4-392,Venture 392 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,72.0,74.99,False
+235,ANH-SEM2-137,Equipo 137 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,71.8,74.8,False
+236,ANH-SEM4-254,Venture 254 (Turismo),4,Turismo Regenerativo - Modelo Escalable,71.8,74.8,False
+237,ANH-SEM4-266,Venture 266 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,71.8,74.8,False
+238,ANH-SEM2-180,Equipo 180 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,71.6,74.62,False
+239,ANH-SEM2-216,Equipo 216 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,71.6,74.62,False
+240,ANH-SEM4-270,Venture 270 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,71.6,74.62,False
+241,ANH-SEM4-402,Venture 402 (Turismo),4,Turismo Regenerativo - Modelo Escalable,71.6,74.62,False
+242,ANH-SEM2-225,Equipo 225 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,71.4,74.43,False
+243,ANH-SEM4-332,Venture 332 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,71.4,74.43,False
+244,ANH-SEM4-367,Venture 367 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,71.4,74.43,False
+245,ANH-SEM2-148,Equipo 148 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,71.2,74.24,False
+246,ANH-SEM2-176,Equipo 176 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,71.2,74.24,False
+247,ANH-SEM4-233,Venture 233 (Economía),4,Economía Circular & Empaques - Modelo Escalable,71.2,74.24,False
+248,ANH-SEM2-075,Equipo 075 (Robótica),2,Robótica y Automatización - Prototipo Fase Beta,71.0,74.05,False
+249,ANH-SEM4-262,Venture 262 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,71.0,74.05,False
+250,ANH-SEM2-010,Equipo 010 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,70.8,73.86,False
+251,ANH-SEM2-143,Equipo 143 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,70.8,73.86,False
+252,ANH-SEM4-285,Venture 285 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,70.8,73.86,False
+253,ANH-SEM4-298,Venture 298 (Economía),4,Economía Circular & Empaques - Modelo Escalable,70.8,73.86,False
+254,ANH-SEM4-315,Venture 315 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,70.6,73.67,False
+255,ANH-SEM4-336,Venture 336 (Economía),4,Economía Circular & Empaques - Modelo Escalable,70.6,73.67,False
+256,ANH-SEM4-366,Venture 366 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,70.6,73.67,False
+257,ANH-SEM2-047,Equipo 047 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,70.4,73.48,False
+258,ANH-SEM4-229,Venture 229 (Economía),4,Economía Circular & Empaques - Modelo Escalable,70.4,73.48,False
+259,ANH-SEM2-184,Equipo 184 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,70.2,73.29,False
+260,ANH-SEM4-273,Venture 273 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,70.2,73.29,False
+261,ANH-SEM2-013,Equipo 013 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,70.0,73.1,False
+262,ANH-SEM2-046,Equipo 046 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,70.0,73.1,False
+263,ANH-SEM2-030,Equipo 030 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,69.8,72.91,False
+264,ANH-SEM2-123,Equipo 123 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,69.6,72.72,False
+265,ANH-SEM2-161,Equipo 161 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,69.6,72.72,False
+266,ANH-SEM4-246,Venture 246 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,69.6,72.72,False
+267,ANH-SEM4-283,Venture 283 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,69.6,72.72,False
+268,ANH-SEM2-026,Equipo 026 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,69.4,72.53,False
+269,ANH-SEM2-185,Equipo 185 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,69.4,72.53,False
+270,ANH-SEM2-208,Equipo 208 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,69.4,72.53,False
+271,ANH-SEM2-222,Equipo 222 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,69.4,72.53,False
+272,ANH-SEM4-302,Venture 302 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,69.4,72.53,False
+273,ANH-SEM2-197,Equipo 197 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,69.2,72.34,False
+274,ANH-SEM4-290,Venture 290 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,69.2,72.34,False
+275,ANH-SEM4-301,Venture 301 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,69.2,72.34,False
+276,ANH-SEM4-310,Venture 310 (Economía),4,Economía Circular & Empaques - Modelo Escalable,69.2,72.34,False
+277,ANH-SEM2-040,Equipo 040 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,69.0,72.15,False
+278,ANH-SEM2-057,Equipo 057 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,69.0,72.15,False
+279,ANH-SEM4-346,Venture 346 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,69.0,72.15,False
+280,ANH-SEM4-378,Venture 378 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,69.0,72.15,False
+281,ANH-SEM2-068,Equipo 068 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,68.8,71.96,False
+282,ANH-SEM2-119,Equipo 119 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,68.8,71.96,False
+283,ANH-SEM2-164,Equipo 164 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,68.8,71.96,False
+284,ANH-SEM4-401,Venture 401 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,68.8,71.96,False
+285,ANH-SEM4-292,Venture 292 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,68.6,71.77,False
+286,ANH-SEM4-294,Venture 294 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,68.6,71.77,False
+287,ANH-SEM4-388,Venture 388 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,68.6,71.77,False
+288,ANH-SEM4-399,Venture 399 (Economía),4,Economía Circular & Empaques - Modelo Escalable,68.6,71.77,False
+289,ANH-SEM2-039,Equipo 039 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,68.4,71.58,False
+290,ANH-SEM4-226,Venture 226 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,68.4,71.58,False
+291,ANH-SEM4-420,Venture 420 (Turismo),4,Turismo Regenerativo - Modelo Escalable,68.4,71.58,False
+292,ANH-SEM2-017,Equipo 017 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,68.0,71.2,False
+293,ANH-SEM2-035,Equipo 035 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,68.0,71.2,False
+294,ANH-SEM2-139,Equipo 139 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,68.0,71.2,False
+295,ANH-SEM4-240,Venture 240 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,68.0,71.2,False
+296,ANH-SEM4-319,Venture 319 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,68.0,71.2,False
+297,ANH-SEM4-324,Venture 324 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,68.0,71.2,False
+298,ANH-SEM2-145,Equipo 145 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,67.8,71.01,False
+299,ANH-SEM2-213,Equipo 213 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,67.8,71.01,False
+300,ANH-SEM4-251,Venture 251 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,67.6,70.82,False
+301,ANH-SEM4-353,Venture 353 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,67.6,70.82,False
+302,ANH-SEM4-355,Venture 355 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,67.6,70.82,False
+303,ANH-SEM4-398,Venture 398 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,67.6,70.82,False
+304,ANH-SEM4-416,Venture 416 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,67.4,70.63,False
+305,ANH-SEM2-122,Equipo 122 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,67.2,70.44,False
+306,ANH-SEM2-135,Equipo 135 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,67.2,70.44,False
+307,ANH-SEM2-154,Equipo 154 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 3,67.2,70.44,False
+308,ANH-SEM2-181,Equipo 181 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,67.2,70.44,False
+309,ANH-SEM4-377,Venture 377 (Turismo),4,Turismo Regenerativo - Modelo Escalable,67.2,70.44,False
+310,ANH-SEM2-097,Equipo 097 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Alpha,67.0,70.25,False
+311,ANH-SEM4-306,Venture 306 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,67.0,70.25,False
+312,ANH-SEM2-064,Equipo 064 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,66.8,70.06,False
+313,ANH-SEM2-212,Equipo 212 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,66.8,70.06,False
+314,ANH-SEM4-389,Venture 389 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,66.8,70.06,False
+315,ANH-SEM4-429,Venture 429 (Economía),4,Economía Circular & Empaques - Modelo Escalable,66.8,70.06,False
+316,ANH-SEM2-098,Equipo 098 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,66.6,69.88,False
+317,ANH-SEM2-004,Equipo 004 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,66.4,69.69,False
+318,ANH-SEM4-263,Venture 263 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,66.4,69.69,False
+319,ANH-SEM2-034,Equipo 034 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,66.2,69.5,False
+320,ANH-SEM2-036,Equipo 036 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,66.2,69.5,False
+321,ANH-SEM2-055,Equipo 055 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,66.2,69.5,False
+322,ANH-SEM2-191,Equipo 191 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,66.2,69.5,False
+323,ANH-SEM4-278,Venture 278 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,66.2,69.5,False
+324,ANH-SEM2-084,Equipo 084 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,66.0,69.31,False
+325,ANH-SEM2-195,Equipo 195 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,66.0,69.31,False
+326,ANH-SEM4-307,Venture 307 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,65.6,68.93,False
+327,ANH-SEM4-383,Venture 383 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,65.6,68.93,False
+328,ANH-SEM4-411,Venture 411 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,65.6,68.93,False
+329,ANH-SEM4-438,Venture 438 (Economía),4,Economía Circular & Empaques - Modelo Escalable,65.6,68.93,False
+330,ANH-SEM2-067,Equipo 067 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,65.4,68.74,False
+331,ANH-SEM4-408,Venture 408 (Economía),4,Economía Circular & Empaques - Modelo Escalable,65.4,68.74,False
+332,ANH-SEM2-027,Equipo 027 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,65.2,68.55,False
+333,ANH-SEM2-061,Equipo 061 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,65.2,68.55,False
+334,ANH-SEM4-327,Venture 327 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,65.2,68.55,False
+335,ANH-SEM4-337,Venture 337 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,65.0,68.36,False
+336,ANH-SEM2-101,Equipo 101 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,64.8,68.17,False
+337,ANH-SEM2-141,Equipo 141 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,64.8,68.17,False
+338,ANH-SEM2-194,Equipo 194 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 3,64.6,67.98,False
+339,ANH-SEM2-021,Equipo 021 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,64.4,67.79,False
+340,ANH-SEM4-264,Venture 264 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,64.4,67.79,False
+341,ANH-SEM4-432,Venture 432 (Economía),4,Economía Circular & Empaques - Modelo Escalable,64.4,67.79,False
+342,ANH-SEM2-028,Equipo 028 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,64.2,67.6,False
+343,ANH-SEM4-279,Venture 279 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,64.2,67.6,False
+344,ANH-SEM4-349,Venture 349 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,64.2,67.6,False
+345,ANH-SEM2-103,Equipo 103 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,63.8,67.22,False
+346,ANH-SEM2-125,Equipo 125 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Alpha,63.8,67.22,False
+347,ANH-SEM4-281,Venture 281 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,63.8,67.22,False
+348,ANH-SEM2-155,Equipo 155 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,63.6,67.03,False
+349,ANH-SEM4-348,Venture 348 (Turismo),4,Turismo Regenerativo - Modelo Escalable,63.6,67.03,False
+350,ANH-SEM4-436,Venture 436 (Economía),4,Economía Circular & Empaques - Modelo Escalable,63.6,67.03,False
+351,ANH-SEM2-081,Equipo 081 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,63.4,66.84,False
+352,ANH-SEM4-403,Venture 403 (Economía),4,Economía Circular & Empaques - Modelo Escalable,63.4,66.84,False
+353,ANH-SEM2-001,Equipo 001 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,63.2,66.65,False
+354,ANH-SEM2-062,Equipo 062 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,63.2,66.65,False
+355,ANH-SEM2-085,Equipo 085 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,63.2,66.65,False
+356,ANH-SEM4-394,Venture 394 (Turismo),4,Turismo Regenerativo - Modelo Escalable,63.2,66.65,False
+357,ANH-SEM4-444,Venture 444 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,63.2,66.65,False
+358,ANH-SEM4-258,Venture 258 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,63.0,66.46,False
+359,ANH-SEM4-323,Venture 323 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,62.8,66.27,False
+360,ANH-SEM4-385,Venture 385 (Turismo),4,Turismo Regenerativo - Modelo Escalable,62.8,66.27,False
+361,ANH-SEM2-198,Equipo 198 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,62.6,66.08,False
+362,ANH-SEM4-235,Venture 235 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,62.6,66.08,False
+363,ANH-SEM4-335,Venture 335 (Economía),4,Economía Circular & Empaques - Modelo Escalable,62.6,66.08,False
+364,ANH-SEM2-106,Equipo 106 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Beta,62.4,65.89,False
+365,ANH-SEM2-201,Equipo 201 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,62.4,65.89,False
+366,ANH-SEM4-274,Venture 274 (Turismo),4,Turismo Regenerativo - Modelo Escalable,62.4,65.89,False
+367,ANH-SEM4-288,Venture 288 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,62.4,65.89,False
+368,ANH-SEM4-422,Venture 422 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,62.4,65.89,False
+369,ANH-SEM2-110,Equipo 110 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,62.2,65.7,False
+370,ANH-SEM2-114,Equipo 114 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,62.2,65.7,False
+371,ANH-SEM2-126,Equipo 126 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,62.2,65.7,False
+372,ANH-SEM2-129,Equipo 129 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,62.2,65.7,False
+373,ANH-SEM2-077,Equipo 077 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,62.0,65.51,False
+374,ANH-SEM2-096,Equipo 096 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,62.0,65.51,False
+375,ANH-SEM2-079,Equipo 079 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,61.8,65.32,False
+376,ANH-SEM2-188,Equipo 188 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,61.8,65.32,False
+377,ANH-SEM4-406,Venture 406 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,61.8,65.32,False
+378,ANH-SEM2-024,Equipo 024 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,61.6,65.13,False
+379,ANH-SEM4-417,Venture 417 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,61.6,65.13,False
+380,ANH-SEM4-280,Venture 280 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,61.4,64.95,False
+381,ANH-SEM4-376,Venture 376 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,61.4,64.95,False
+382,ANH-SEM2-006,Equipo 006 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,61.2,64.76,False
+383,ANH-SEM4-360,Venture 360 (Economía),4,Economía Circular & Empaques - Modelo Escalable,61.2,64.76,False
+384,ANH-SEM4-409,Venture 409 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,61.2,64.76,False
+385,ANH-SEM2-048,Equipo 048 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 3,60.8,64.38,False
+386,ANH-SEM2-082,Equipo 082 (Robótica),2,Robótica y Automatización - Prototipo Fase Alpha,60.6,64.19,False
+387,ANH-SEM2-113,Equipo 113 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,60.6,64.19,False
+388,ANH-SEM2-173,Equipo 173 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 3,60.6,64.19,False
+389,ANH-SEM2-158,Equipo 158 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,60.4,64.0,False
+390,ANH-SEM2-211,Equipo 211 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 3,60.4,64.0,False
+391,ANH-SEM4-286,Venture 286 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,60.2,63.81,False
+392,ANH-SEM2-151,Equipo 151 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,60.0,63.62,False
+393,ANH-SEM2-163,Equipo 163 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,60.0,63.62,False
+394,ANH-SEM4-449,Venture 449 (Economía),4,Economía Circular & Empaques - Modelo Escalable,60.0,63.62,False
+395,ANH-SEM4-252,Venture 252 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,59.8,63.43,False
+396,ANH-SEM4-276,Venture 276 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,59.8,63.43,False
+397,ANH-SEM2-066,Equipo 066 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,59.6,63.24,False
+398,ANH-SEM2-002,Equipo 002 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,59.4,63.05,False
+399,ANH-SEM4-359,Venture 359 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,59.4,63.05,False
+400,ANH-SEM4-371,Venture 371 (Turismo),4,Turismo Regenerativo - Modelo Escalable,59.4,63.05,False
+401,ANH-SEM4-325,Venture 325 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,59.2,62.86,False
+402,ANH-SEM2-003,Equipo 003 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,59.0,62.67,False
+403,ANH-SEM2-008,Equipo 008 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,58.8,62.48,False
+404,ANH-SEM4-244,Venture 244 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,58.8,62.48,False
+405,ANH-SEM4-351,Venture 351 (Turismo),4,Turismo Regenerativo - Modelo Escalable,58.8,62.48,False
+406,ANH-SEM4-320,Venture 320 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,58.6,62.29,False
+407,ANH-SEM2-220,Equipo 220 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,58.4,62.1,False
+408,ANH-SEM4-396,Venture 396 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,58.2,61.91,False
+409,ANH-SEM2-073,Equipo 073 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Beta,58.0,61.72,False
+410,ANH-SEM4-248,Venture 248 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,58.0,61.72,False
+411,ANH-SEM2-059,Equipo 059 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,57.8,61.53,False
+412,ANH-SEM4-257,Venture 257 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,57.8,61.53,False
+413,ANH-SEM2-078,Equipo 078 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,57.6,61.34,False
+414,ANH-SEM4-236,Venture 236 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,57.6,61.34,False
+415,ANH-SEM4-277,Venture 277 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,57.0,60.77,False
+416,ANH-SEM4-253,Venture 253 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,56.6,60.39,False
+417,ANH-SEM4-415,Venture 415 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,56.6,60.39,False
+418,ANH-SEM2-063,Equipo 063 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase Alpha,56.4,60.2,False
+419,ANH-SEM4-242,Venture 242 (Turismo),4,Turismo Regenerativo - Modelo Escalable,56.4,60.2,False
+420,ANH-SEM4-313,Venture 313 (Economía),4,Economía Circular & Empaques - Modelo Escalable,56.2,60.02,False
+421,ANH-SEM2-007,Equipo 007 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,55.8,59.64,False
+422,ANH-SEM4-269,Venture 269 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,55.6,59.45,False
+423,ANH-SEM2-112,Equipo 112 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 3,54.8,58.69,False
+424,ANH-SEM4-231,Venture 231 (Turismo),4,Turismo Regenerativo - Modelo Escalable,54.8,58.69,False
+425,ANH-SEM2-182,Equipo 182 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,54.6,58.5,False
+426,ANH-SEM4-282,Venture 282 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,54.6,58.5,False
+427,ANH-SEM4-450,Venture 450 (Turismo),4,Turismo Regenerativo - Modelo Escalable,54.6,58.5,False
+428,ANH-SEM2-224,Equipo 224 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Beta,54.2,58.12,False
+429,ANH-SEM2-083,Equipo 083 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase TRL 4,54.0,57.93,False
+430,ANH-SEM2-219,Equipo 219 (Robótica),2,Robótica y Automatización - Prototipo Fase TRL 4,53.2,57.17,False
+431,ANH-SEM2-170,Equipo 170 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase TRL 4,52.8,56.79,False
+432,ANH-SEM2-104,Equipo 104 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase Alpha,52.6,56.6,False
+433,ANH-SEM4-227,Venture 227 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,52.6,56.6,False
+434,ANH-SEM4-365,Venture 365 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,52.6,56.6,False
+435,ANH-SEM4-439,Venture 439 (Agtech),4,Agtech & Trazabilidad SaaS - Modelo Escalable,52.6,56.6,False
+436,ANH-SEM2-012,Equipo 012 (Sargazo),2,Sargazo y Biomateriales - Prototipo Fase TRL 4,52.0,56.03,False
+437,ANH-SEM2-031,Equipo 031 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 4,51.8,55.84,False
+438,ANH-SEM4-410,Venture 410 (HealthTech),4,HealthTech Preventivo - Modelo Escalable,51.8,55.84,False
+439,ANH-SEM2-209,Equipo 209 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,51.6,55.65,False
+440,ANH-SEM4-400,Venture 400 (Turismo),4,Turismo Regenerativo - Modelo Escalable,51.4,55.46,False
+441,ANH-SEM4-404,Venture 404 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,51.2,55.28,False
+442,ANH-SEM2-045,Equipo 045 (Biotecnología),2,Biotecnología Melipona - Prototipo Fase Alpha,50.8,54.9,False
+443,ANH-SEM4-354,Venture 354 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,50.8,54.9,False
+444,ANH-SEM2-192,Equipo 192 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase TRL 4,50.6,54.71,False
+445,ANH-SEM4-391,Venture 391 (Logística),4,Logística de Frío para Pesca - Modelo Escalable,50.6,54.71,False
+446,ANH-SEM4-441,Venture 441 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,50.6,54.71,False
+447,ANH-SEM4-387,Venture 387 (Fintech),4,Fintech & Microcréditos Mayas - Modelo Escalable,48.2,52.43,False
+448,ANH-SEM2-156,Equipo 156 (IoT),2,IoT y Sensores Agrícolas - Prototipo Fase Beta,47.6,51.86,False
+449,ANH-SEM2-217,Equipo 217 (Energía),2,Energía Solar y Termodinámica - Prototipo Fase Beta,45.2,49.59,False
+450,ANH-SEM2-166,Equipo 166 (Biofiltro),2,Biofiltro de Aguas Residuales - Prototipo Fase TRL 3,37.6,42.38,False

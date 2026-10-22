@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal de Innovación y Emprendimiento | Universidad Anáhuac Mayab</title>
+  <meta name="description" content="Plataforma institucional de entrega, sparring con avatar IA y evaluación automatizada de proyectos para Universidad Anáhuac Mayab.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/static/style.css?v=20261022-scale-v4">
+</head>
+<body>
+
+  <!-- Top Orange Accent Bar -->
+  <div class="top-accent-bar"></div>
+
+  <!-- Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="brand-group">
+        <img src="/static/anahuac_mayab_highres.png" alt="Universidad Anáhuac Mayab" class="university-logo">
+        <div class="header-titles">
+          <span class="sub-label">DIRECCIÓN DE EMPRENDIMIENTO E INNOVACIÓN</span>
+          <h1 class="header-title">Portal de Proyectos y Triage Inteligente</h1>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="cohort-badge"><i class="fa-solid fa-graduation-cap"></i> Convocatoria Enero 2026</span>
+        <span class="node-status-badge"><i class="fa-solid fa-server"></i> Clúster Dual Titan GPU Online</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="navigation-bar">
+    <div class="nav-container">
+      <button class="nav-btn active" data-tab="tab-submit" id="nav-btn-submit">
+        <i class="fa-solid fa-cloud-arrow-up"></i> 1. Entrega y Registro
+      </button>
+      <button class="nav-btn" data-tab="tab-sparring" id="nav-btn-sparring">
+        <i class="fa-solid fa-video"></i> 2. Cabina de Sparring (Avatar IA)
+      </button>
+      <button class="nav-btn" data-tab="tab-judges" id="nav-btn-judges">
+        <i class="fa-solid fa-scale-balanced"></i> 3. Panel de 5 Jueces Sintéticos
+      </button>
+      <button class="nav-btn" data-tab="tab-rankings" id="nav-btn-rankings">
+        <i class="fa-solid fa-trophy"></i> 4. Tablero y Top 50 Finalistas
+      </button>
+      <button class="nav-btn" data-tab="tab-guidelines" id="nav-btn-guidelines">
+        <i class="fa-solid fa-book-open"></i> 5. Rúbrica y Lineamientos
+      </button>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="main-content">
+
+    <!-- ===================================================================== -->
+    <!-- TAB 1: REGISTRO Y ENTREGA DE PROYECTOS -->
+    <!-- ===================================================================== -->
+    <section id="tab-submit" class="tab-pane active">
+      <div class="hero-card">
+        <div class="hero-content">
+          <span class="hero-tag"><i class="fa-solid fa-bullhorn"></i> Cohorte Enero • 450 Equipos Estudiantiles</span>
+          <h2>Entrega Oficial de Proyecto y Documentación</h2>
+          <p>Selecciona tu track académico, completa los bloques requeridos, adjunta tu enlace de video pitch y carga tus archivos de soporte (presentación, canvas o especificaciones de prototipo).</p>
+        </div>
+        <div class="hero-stats">
+          <div class="h-stat-box">
+            <span class="stat-number">2do Sem</span>
+            <span class="stat-desc">Feria de Prototipos</span>
+          </div>
+          <div class="h-stat-divider"></div>
+          <div class="h-stat-box">
+            <span class="stat-number">4to Sem</span>
+            <span class="stat-desc">Business Model Canvas</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submission Form Card -->
+      <div class="form-container-card">
+        <form id="submission-form" enctype="multipart/form-data">
+
+          <!-- 1. Track Selector -->
+          <div class="form-section">
+            <div class="section-header">
+              <span class="step-badge">Paso 1</span>
+              <h3>Selección de Semestre y Track Académico</h3>
+            </div>
+            <div class="track-selector-grid">
+              <label class="track-card selected" id="track-label-sem2">
+                <input type="radio" name="semester" value="2" checked id="radio-sem2">
+                <div class="track-card-content">
+                  <div class="track-card-header">
+                    <span class="track-badge badge-orange"><i class="fa-solid fa-microchip"></i> 2do Semestre</span>
+                    <span class="track-deliverable">Feria de Prototipos</span>
+                  </div>
+                  <h4 class="track-title">Innovación y Validación Tecnológica</h4>
+                  <p class="track-desc">Enfocado en el desarrollo, iteración y prueba empírica de un prototipo físico o digital (TRL 1 a 4).</p>
+                </div>
+              </label>
+
+              <label class="track-card" id="track-label-sem4">
+                <input type="radio" name="semester" value="4" id="radio-sem4">
+                <div class="track-card-content">
+                  <div class="track-card-header">
+                    <span class="track-badge badge-charcoal"><i class="fa-solid fa-chart-line"></i> 4to Semestre</span>
+                    <span class="track-deliverable">Business Model Canvas</span>
+                  </div>
+                  <h4 class="track-title">Emprendimiento y Modelo de Negocio</h4>
+                  <p class="track-desc">Enfocado en la viabilidad comercial, economía unitaria (CAC/LTV), monetización y validación del lienzo Osterwalder.</p>
+                </div>
+              </label>
+            </div>
+          </div>
+
+          <!-- 2. Team & General Info -->
+          <div class="form-section">
+            <div class="section-header">
+              <span class="step-badge">Paso 2</span>
+              <h3>Información del Equipo y Proyecto</h3>
+            </div>
+            <div class="form-row-grid">
+              <div class="form-group">
+                <label for="team_name"><i class="fa-solid fa-users"></i> Nombre del Equipo / Venture <span class="req">*</span></label>
+                <input type="text" id="team_name" name="team_name" placeholder="Ej. SargazoTech BioBlocks" required>
+              </div>
+              <div class="form-group">
+                <label for="team_id"><i class="fa-solid fa-id-card"></i> ID de Equipo (Opcional)</label>
+                <input type="text" id="team_id" name="team_id" placeholder="Ej. ANH-042 (Autogenerado si está vacío)">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="project_title"><i class="fa-solid fa-lightbulb"></i> Título del Proyecto <span class="req">*</span></label>
+              <input type="text" id="project_title" name="project_title" placeholder="Ej. Bloques Térmicos de Construcción a Base de Sargazo y Cal Yucateca" required>
+            </div>
+
+            <div class="form-group">
+              <label for="members"><i class="fa-solid fa-user-group"></i> Nombres de los Integrantes del Equipo (Separados por coma) <span class="req">*</span></label>
+              <input type="text" id="members" name="members" placeholder="Ej. Rodrigo Alcocer, Valeria Cetina, Emilio Peón" required>
+            </div>
+          </div>
+
+          <!-- 3. Dynamic Track-Specific Deliverables -->
+          <div class="form-section" id="section-track-specific">
+            <div class="section-header">
+              <span class="step-badge">Paso 3</span>
+              <h3 id="track-fields-title">Entregable de 2do Semestre: Feria de Prototipos</h3>
+            </div>
+
+            <!-- 2nd Sem Fields -->
+            <div id="fields-sem2" class="track-fields-block">
+              <div class="form-row-grid">
+                <div class="form-group">
+                  <label for="prototype_type"><i class="fa-solid fa-cubes"></i> Tipo de Prototipo <span class="req">*</span></label>
+                  <select id="prototype_type" name="prototype_type">
+                    <option value="Prototipo Físico Funcional (TRL 4)">Prototipo Físico Funcional (TRL 4)</option>
+                    <option value="Prototipo Digital / Software / App (TRL 3-4)">Prototipo Digital / Software / App (TRL 3-4)</option>
+                    <option value="Prototipo Mecatrónico / IoT (TRL 3)">Prototipo Mecatrónico / IoT (TRL 3)</option>
+                    <option value="Prototipo de Biomaterial / Químico (TRL 3)">Prototipo de Biomaterial / Químico (TRL 3)</option>
+                    <option value="Prueba de Concepto en Laboratorio (TRL 2)">Prueba de Concepto en Laboratorio (TRL 2)</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="target_user"><i class="fa-solid fa-crosshairs"></i> Usuario Objetivo / Cliente Validado <span class="req">*</span></label>
+                  <input type="text" id="target_user" name="target_user" placeholder="Ej. Desarrolladores sustentables en Cancún y cooperativas de Mérida">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="prototype_description"><i class="fa-solid fa-align-left"></i> Descripción Técnica del Prototipo y Resultados de Pruebas <span class="req">*</span></label>
+                <textarea id="prototype_description" name="prototype_description" rows="3" placeholder="Describe las dimensiones, materiales, arquitectura técnica y qué métricas demostraron su funcionamiento en pruebas con usuarios."></textarea>
+              </div>
+            </div>
+
+            <!-- 4th Sem Fields (Hidden by default) -->
+            <div id="fields-sem4" class="track-fields-block" style="display: none;">
+              <div class="form-group">
+                <label for="value_proposition"><i class="fa-solid fa-gem"></i> Propuesta de Valor Central (BMC) <span class="req">*</span></label>
+                <textarea id="value_proposition" name="value_proposition" rows="2" placeholder="¿Qué problema doloroso resuelven y por qué su solución es superior a las alternativas actuales?"></textarea>
+              </div>
+              <div class="form-row-grid">
+                <div class="form-group">
+                  <label for="customer_segments"><i class="fa-solid fa-users-viewfinder"></i> Segmento de Clientes (ICP)</label>
+                  <input type="text" id="customer_segments" name="customer_segments" placeholder="Ej. Asociaciones citrícolas de Oxkutzcab y medianos productores">
+                </div>
+                <div class="form-group">
+                  <label for="revenue_streams"><i class="fa-solid fa-coins"></i> Fuentes de Ingresos y Pricing</label>
+                  <input type="text" id="revenue_streams" name="revenue_streams" placeholder="Ej. Suscripción SaaS $450 MXN/ha/año + servicio de vuelo técnico">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="cost_structure"><i class="fa-solid fa-receipt"></i> Estructura de Costos y Economía Unitaria (CAC / LTV)</label>
+                <input type="text" id="cost_structure" name="cost_structure" placeholder="Ej. Hardware de sensores, hosting AWS, soporte en campo. CAC estimado: $1,200 MXN.">
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Video Pitch & Document Upload -->
+          <div class="form-section">
+            <div class="section-header">
+              <span class="step-badge">Paso 4</span>
+              <h3>Video Pitch y Carga de Archivos de Respaldo</h3>
+            </div>
+
+            <div class="form-group">
+              <label for="video_pitch_url"><i class="fa-solid fa-video"></i> Enlace al Video Pitch (Máximo 3 minutos) <span class="req">*</span></label>
+              <div class="input-with-button">
+                <input type="url" id="video_pitch_url" name="video_pitch_url" placeholder="https://youtu.be/... o enlace de Loom / Google Drive" required>
+                <button type="button" class="btn-secondary-action" id="btn-preview-pitch"><i class="fa-solid fa-play"></i> Probar</button>
+              </div>
+              <span class="input-hint"><i class="fa-solid fa-circle-info"></i> El pitch debe ser grabado en horizontal, con audio claro y duración máxima de 3:00 minutos.</span>
+            </div>
+
+            <!-- Direct File Upload Dropzone -->
+            <div class="form-group">
+              <label><i class="fa-solid fa-file-arrow-up"></i> Carga Directa de Entregables (PDF, BMC, Slides o Fotos de Prototipo)</label>
+              <div class="upload-dropzone" id="upload-dropzone">
+                <input type="file" id="file_upload" name="file_upload" class="file-input-hidden" accept=".pdf,.pptx,.ppt,.png,.jpg,.jpeg,.zip">
+                <div class="dropzone-inner">
+                  <div class="dropzone-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                  <div class="dropzone-text">
+                    <p class="dropzone-prompt"><strong>Arrastra y suelta aquí tu archivo</strong> o haz clic para explorar</p>
+                    <span class="dropzone-formats">Formatos permitidos: PDF, PPTX, PNG, JPG, ZIP (Máximo 50 MB)</span>
+                  </div>
+                </div>
+              </div>
+              <div id="file-preview-card" class="file-preview-card" style="display: none;">
+                <div class="file-info">
+                  <i class="fa-solid fa-file-pdf file-icon" id="preview-file-icon"></i>
+                  <div>
+                    <span class="file-name" id="preview-file-name">documento.pdf</span>
+                    <span class="file-size" id="preview-file-size">1.2 MB</span>
+                  </div>
+                </div>
+                <button type="button" class="btn-remove-file" id="btn-remove-file"><i class="fa-solid fa-xmark"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Actions -->
+          <div class="form-action-bar">
+            <button type="button" class="btn-action-outline" id="btn-open-sparring-from-form">
+              <i class="fa-solid fa-comments"></i> Ensayar Pitch con Avatar Mateo
+            </button>
+            <button type="submit" class="btn-action-primary" id="btn-submit-project">
+              <i class="fa-solid fa-paper-plane"></i> Registrar y Enviar Proyecto Oficialmente
+            </button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 2: CABINA DE SPARRING Y ENSAYO CON AVATAR IA -->
+    <!-- ===================================================================== -->
+    <section id="tab-sparring" class="tab-pane">
+      <div class="hero-card">
+        <div class="hero-content">
+          <span class="hero-tag"><i class="fa-solid fa-headset"></i> Simulación Socrática 24/7 • Tavus Video Avatar</span>
+          <h2>Cabina Interactiva de Sparring y Ensayo de Pitch</h2>
+          <p>Practica tu presentación oral frente a nuestros mentores virtuales impulsados por IA y GPUs locales. Recibe preguntas desafiantes de capital de riesgo y validación empírica en tiempo real, <strong>de manera individual o con todo tu equipo conectado a la misma llamada</strong>.</p>
+        </div>
+      </div>
+
+      <div class="sparring-grid">
+        <!-- Avatar 1: Mateo (Spanish) -->
+        <div class="avatar-card featured">
+          <div class="avatar-top-row">
+            <span class="avatar-badge"><i class="fa-solid fa-star"></i> Oficial Anáhuac Mayab</span>
+          </div>
+          <div class="avatar-header">
+            <div class="avatar-portrait-wrap">
+              <img src="https://cdn.replica.tavus.io/61338/thumbnail.jpg" alt="Mateo" class="avatar-portrait-img" width="80" height="80" style="width: 80px; height: 80px; min-width: 80px; max-width: 80px; min-height: 80px; max-height: 80px; object-fit: cover; object-position: center top; border-radius: 50%; display: block;">
+              <span class="status-dot-online" title="Conectado a Qwen 2.5 en clúster Titan"></span>
+            </div>
+            <div class="avatar-meta">
+              <h3>Mateo (Mentor en Español)</h3>
+              <span class="avatar-role">Coach Socrático de Validación y Negocios</span>
+              <span class="avatar-engine"><i class="fa-solid fa-bolt"></i> LLM Qwen 2.5 14B • Servidor Titán</span>
+            </div>
+          </div>
+
+          <p class="avatar-desc">
+            Mateo escucha atentamente tu pitch de 3 minutos e interrumpe de forma constructiva para cuestionar tus supuestos de mercado, pruebas empíricas del prototipo y unit economics.
+          </p>
+
+          <div class="coaching-focus-box">
+            <h4><i class="fa-solid fa-circle-question"></i> Preguntas que Mateo te hará:</h4>
+            <ul>
+              <li><strong>2do Semestre:</strong> <em>"¿Cómo validaron este prototipo con usuarios reales y qué falló en la primera prueba?"</em></li>
+              <li><strong>4to Semestre:</strong> <em>"¿Cuál es su CAC relativo al LTV proyectado y qué margen unitario tienen?"</em></li>
+            </ul>
+          </div>
+
+          <div class="avatar-action-group">
+            <button type="button" class="btn-avatar-primary" id="btn-join-mateo-solo" onclick="launchSparringSession('mateo')">
+              <i class="fa-solid fa-video"></i> Iniciar Sesión de Ensayo en Vivo (1 Hora)
+            </button>
+            <button type="button" class="btn-avatar-secondary" id="btn-copy-mateo-group" onclick="copyLiveRoomLink('mateo')">
+              <i class="fa-solid fa-users"></i> Copiar Enlace para Reunión en Grupo
+            </button>
+          </div>
+          <span class="room-hint" id="room-hint-mateo"><i class="fa-solid fa-circle-check" style="color: #00C853;"></i> Cabina interactiva en vivo con video HD y preguntas socráticas adaptativas. Todo tu equipo puede ingresar al mismo enlace simultáneamente.</span>
+        </div>
+
+        <!-- Avatar 2: Prof. Luna (English) -->
+        <div class="avatar-card">
+          <div class="avatar-top-row">
+            <span class="avatar-badge badge-gray"><i class="fa-solid fa-globe"></i> International Track</span>
+          </div>
+          <div class="avatar-header">
+            <div class="avatar-portrait-wrap">
+              <img src="https://cdn.replica.tavus.io/60594/thumbnail.jpg" alt="Prof. Luna" class="avatar-portrait-img" width="80" height="80" style="width: 80px; height: 80px; min-width: 80px; max-width: 80px; min-height: 80px; max-height: 80px; object-fit: cover; object-position: center top; border-radius: 50%; display: block;">
+              <span class="status-dot-online" title="Conectado a Qwen 2.5 en clúster Titan"></span>
+            </div>
+            <div class="avatar-meta">
+              <h3>Prof. Luna (English Avatar)</h3>
+              <span class="avatar-role">Global Venture Capital Pitch Judge</span>
+              <span class="avatar-engine"><i class="fa-solid fa-bolt"></i> LLM Qwen 2.5 14B • Servidor Titán</span>
+            </div>
+          </div>
+
+          <p class="avatar-desc">
+            Practice pitching in English for international pitch competitions and foreign seed funds. Prof. Luna challenges global scalability and cross-border defensibility.
+          </p>
+
+          <div class="coaching-focus-box">
+            <h4><i class="fa-solid fa-circle-question"></i> Sample Socratic Inquiries:</h4>
+            <ul>
+              <li><strong>International Pitch:</strong> <em>"What is your defensible moat against incumbent market leaders in the US and Latin America?"</em></li>
+            </ul>
+          </div>
+
+          <div class="avatar-action-group">
+            <button type="button" class="btn-avatar-primary" id="btn-join-luna-solo" onclick="launchSparringSession('luna')">
+              <i class="fa-solid fa-video"></i> Launch English Sparring (1 Hour)
+            </button>
+            <button type="button" class="btn-avatar-secondary" id="btn-copy-luna-group" onclick="copyLiveRoomLink('luna')">
+              <i class="fa-solid fa-users"></i> Copy Team Video Link
+            </button>
+          </div>
+          <span class="room-hint" id="room-hint-luna"><i class="fa-solid fa-circle-check" style="color: #00C853;"></i> Dynamic live studio with English pitch challenge. Multiple team members can join the call together.</span>
+        </div>
+      </div>
+
+      <!-- Live Video Studio / Interactive Rehearsal Booth -->
+      <div class="embedded-room-container" id="embedded-room-container" style="display: none;">
+        
+        <!-- Header Bar -->
+        <div class="room-header-bar">
+          <div class="room-title">
+            <span class="live-pulse-badge"><i class="fa-solid fa-circle"></i> EN VIVO</span>
+            <span id="room-active-title">Cabina Activa: Mateo (Mentor en Español)</span>
+          </div>
+          <div class="room-meta-controls">
+            <span class="room-timer" id="room-session-timer"><i class="fa-regular fa-clock"></i> Sesión: 59:59</span>
+            <button type="button" class="studio-btn" id="btn-toggle-cam" onclick="toggleCamera()" title="Encender / Apagar Cámara">
+              <i class="fa-solid fa-video"></i> <span class="btn-text">Cámara</span>
+            </button>
+            <button type="button" class="studio-btn" id="btn-toggle-mic" onclick="toggleMic()" title="Silenciar / Activar Micrófono">
+              <i class="fa-solid fa-microphone"></i> <span class="btn-text">Micrófono</span>
+            </button>
+            <button type="button" class="studio-btn" id="btn-fullscreen-studio" onclick="toggleFullscreenStudio()" title="Pantalla Completa">
+              <i class="fa-solid fa-expand"></i> <span class="btn-text">Pantalla Completa</span>
+            </button>
+            <button type="button" class="btn-close-room" onclick="closeEmbeddedRoom()">
+              <i class="fa-solid fa-xmark"></i> Salir de la Sala
+            </button>
+          </div>
+        </div>
+
+        <!-- Mode Switcher Tabs inside Studio -->
+        <div class="studio-nav-tabs">
+          <button type="button" class="studio-tab-btn active" id="btn-tab-daily" onclick="switchStudioMode('daily')">
+            <i class="fa-solid fa-video"></i> 1. Videollamada Tavus en Vivo (Daily.co)
+          </button>
+          <button type="button" class="studio-tab-btn" id="btn-tab-socratic" onclick="switchStudioMode('socratic')">
+            <i class="fa-solid fa-chalkboard-user"></i> 2. Cabina de Pitch (3 Min) y Desafío Socrático
+          </button>
+        </div>
+
+        <!-- View 1: Live Daily.co Video Call Stage (Default) -->
+        <div id="view-daily-call" class="studio-view-pane active">
+          <div class="daily-call-container">
+            <div class="daily-link-bar">
+              <span class="daily-link-label"><i class="fa-solid fa-users"></i> Enlace de Videollamada para tu Equipo:</span>
+              <input type="text" id="external-room-link-input" readonly value="https://anahuac-innovation.com/?tab=sparring&avatar=mateo">
+              <button type="button" class="btn-copy-link" onclick="copyExternalInputLink()"><i class="fa-solid fa-copy"></i> Copiar Enlace</button>
+              <button type="button" class="btn-copy-link" style="background: rgba(255, 106, 0, 0.15); border: 1px solid var(--anahuac-orange); color: var(--anahuac-orange); margin-left: 4px;" onclick="restartCurrentAvatarRoom()"><i class="fa-solid fa-rotate-right"></i> Nueva Sala</button>
+              <a href="#" target="_blank" id="btn-open-external-tab" class="btn-open-tab"><i class="fa-solid fa-arrow-up-right-from-square"></i> Pestaña Nueva</a>
+            </div>
+            <div class="iframe-wrap">
+              <iframe id="avatar-daily-frame" allow="camera; microphone; fullscreen; display-capture; autoplay" src="" style="width: 100%; height: 100%; min-height: 480px; border: none; display: block;"></iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- View 2: Studio Main Body (Two Columns: Avatar Stage + Student Rehearsal Console) -->
+        <div id="view-socratic-booth" class="studio-view-pane" style="display: none;">
+          <div class="studio-grid">
+            
+            <!-- Column 1: Avatar Video Stage -->
+            <div class="avatar-stage-card">
+              <div class="video-wrapper">
+                <video id="avatar-video-player" playsinline loop autoplay muted class="avatar-video-element" poster="https://cdn.replica.tavus.io/61338/thumbnail.jpg" style="width: 100%; height: 100%; max-width: 100%; object-fit: cover; display: block;">
+                  <source id="avatar-video-source" src="https://cdn.replica.tavus.io/61338/198f094f.mp4" type="video/mp4">
+                </video>
+                <div class="avatar-stage-overlay">
+                  <span class="avatar-institution-tag"><i class="fa-solid fa-shield-halved"></i> Universidad Anáhuac Mayab</span>
+                  <div class="audio-reactive-bars" id="audio-bars">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Avatar Speech Bubble / Dialogue -->
+              <div class="avatar-speech-panel">
+                <div class="speech-avatar-meta">
+                  <i class="fa-solid fa-comment-dots speech-icon"></i>
+                  <strong id="speech-avatar-name">Mateo:</strong>
+                </div>
+                <p class="speech-text" id="avatar-speech-text">
+                  ¡Hola! Soy Mateo, tu mentor socrático de Anáhuac Mayab. Comienza tu pitch de 3 minutos cuando estés listo; te escucharé atentamente y te haré preguntas sobre tus supuestos de mercado y validación empírica.
+                </p>
+              </div>
+            </div>
+
+            <!-- Column 2: Student Camera & Rehearsal Dashboard -->
+            <div class="student-console-card">
+              
+              <!-- Student Local Video Feed Preview -->
+              <div class="student-webcam-box">
+                <video id="student-webcam-preview" playsinline autoplay muted class="student-webcam-feed" style="display: none;"></video>
+                <div id="student-cam-fallback" class="student-cam-placeholder">
+                  <i class="fa-solid fa-user-astronaut placeholder-icon"></i>
+                  <span>Cámara en espera o desactivada</span>
+                  <button type="button" class="btn-activate-cam" onclick="activateWebcam()">
+                    <i class="fa-solid fa-camera"></i> Activar Mi Cámara Web
+                  </button>
+                </div>
+                <div class="webcam-badge">
+                  <i class="fa-solid fa-user"></i> Tu Transmisión (Estudiante / Equipo)
+                </div>
+              </div>
+
+              <!-- 3-Minute Pitch Timer Box -->
+              <div class="pitch-timer-card">
+                <div class="timer-header">
+                  <span class="timer-label"><i class="fa-solid fa-stopwatch"></i> Temporizador Oficial de Pitch</span>
+                  <span class="timer-countdown" id="pitch-timer-display">03:00</span>
+                </div>
+                <div class="timer-progress-bar">
+                  <div class="timer-progress-fill" id="pitch-progress-fill"></div>
+                </div>
+                <div class="timer-controls">
+                  <button type="button" class="btn-timer-action" id="btn-pitch-start" onclick="startPitchTimer()">
+                    <i class="fa-solid fa-play"></i> Iniciar Pitch (3 Min)
+                  </button>
+                  <button type="button" class="btn-timer-secondary" id="btn-pitch-reset" onclick="resetPitchTimer()">
+                    <i class="fa-solid fa-rotate-left"></i> Reiniciar
+                  </button>
+                </div>
+              </div>
+
+              <!-- Socratic Challenge Questions -->
+              <div class="socratic-triggers-card">
+                <h4><i class="fa-solid fa-bolt"></i> Preguntas Socráticas en Tiempo Real:</h4>
+                <div class="socratic-btn-stack">
+                  <button type="button" class="btn-socratic" onclick="triggerSocraticChallenge('prototype')">
+                    <i class="fa-solid fa-microchip"></i> Desafío 2do Sem: Validación y Fallas de Prototipo
+                  </button>
+                  <button type="button" class="btn-socratic" onclick="triggerSocraticChallenge('business_model')">
+                    <i class="fa-solid fa-chart-pie"></i> Desafío 4to Sem: CAC, LTV y Economía Unitaria
+                  </button>
+                  <button type="button" class="btn-socratic" onclick="triggerSocraticChallenge('investment')">
+                    <i class="fa-solid fa-hand-holding-dollar"></i> Desafío de Inversionista VC: Moat y Escalabilidad
+                  </button>
+                </div>
+              </div>
+
+              <!-- Conversation Transcript Box -->
+              <div class="transcript-box">
+                <div class="transcript-header">
+                  <span><i class="fa-solid fa-scroll"></i> Registro de Interacción Socrática</span>
+                  <button type="button" class="btn-clear-transcript" onclick="clearTranscript()" title="Limpiar bitácora">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </button>
+                </div>
+                <div class="transcript-content" id="transcript-stream">
+                  <div class="transcript-msg msg-system">
+                    <span class="time">[Inicio]</span> Cabina de sparring socrático conectada con clúster GPU local.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 3: PANEL DE 5 JUECES SINTÉTICOS -->
+    <!-- ===================================================================== -->
+    <section id="tab-judges" class="tab-pane">
+      <div class="hero-card">
+        <div class="hero-content">
+          <span class="hero-tag"><i class="fa-solid fa-gavel"></i> Sistema Institucional Objetivo Justo</span>
+          <h2>El Panel Colegiado de 5 Jueces Sintéticos</h2>
+          <p>Para garantizar equidad absoluta entre 450 equipos y eliminar sesgos individuales, cada entrega es examinada simultáneamente por 5 perfiles de agentes con criterios independientes.</p>
+        </div>
+      </div>
+
+      <div class="judges-grid">
+        <div class="judge-box">
+          <div class="judge-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <div class="judge-details">
+            <span class="j-role">Viabilidad Financiera</span>
+            <h4>Dr. Fernando Ruiz</h4>
+            <p>Audita economía unitaria, márgenes, estructura de costos, CAC y realismo de ingresos.</p>
+          </div>
+        </div>
+
+        <div class="judge-box">
+          <div class="judge-icon"><i class="fa-solid fa-comments-dollar"></i></div>
+          <div class="judge-details">
+            <span class="j-role">Validación de Mercado</span>
+            <h4>Mtra. Sofía Morales</h4>
+            <p>Evalúa si el problema está respaldado por evidencia empírica y entrevistas con usuarios reales.</p>
+          </div>
+        </div>
+
+        <div class="judge-box">
+          <div class="judge-icon"><i class="fa-solid fa-fingerprint"></i></div>
+          <div class="judge-details">
+            <span class="j-role">Innovación y Moat</span>
+            <h4>Ing. Carlos Méndez</h4>
+            <p>Analiza el grado de diferenciación técnica y barreras de entrada frente a soluciones existentes.</p>
+          </div>
+        </div>
+
+        <div class="judge-box">
+          <div class="judge-icon"><i class="fa-solid fa-microphone-lines"></i></div>
+          <div class="judge-details">
+            <span class="j-role">Pitch y Storytelling</span>
+            <h4>Lic. Valeria Garza</h4>
+            <p>Califica estructura narrativa, claridad del mensaje, síntesis en 3 minutos y persuasión.</p>
+          </div>
+        </div>
+
+        <div class="judge-box">
+          <div class="judge-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+          <div class="judge-details">
+            <span class="j-role">Auditor de Rúbrica</span>
+            <h4>Dr. Alejandro H.</h4>
+            <p>Verifica rigurosamente el cumplimiento de los hitos académicos oficiales Anáhuac Mayab.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Pre-Check Simulation Box -->
+      <div class="precheck-container-card">
+        <div class="precheck-header">
+          <h3><i class="fa-solid fa-wand-magic-sparkles"></i> Simular Evaluación Colegiada para un Proyecto</h3>
+          <p>Selecciona un proyecto cargado para ejecutar el panel de 5 jueces y ver el consenso en vivo:</p>
+        </div>
+        <div class="precheck-controls">
+          <select id="select-project-for-eval" class="select-project">
+            <option value="">Cargando proyectos disponibles...</option>
+          </select>
+          <button type="button" class="btn-action-primary" id="btn-run-precheck">
+            <i class="fa-solid fa-play"></i> Ejecutar 5 Jueces Sintéticos
+          </button>
+        </div>
+
+        <!-- Precheck Live Results -->
+        <div id="precheck-results-area" style="display: none;">
+          <div class="precheck-scores-grid" id="precheck-scores-grid"></div>
+          <div class="meta-verdict-box" id="precheck-meta-verdict"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 4: TABLERO DE CALIFICACIONES Y FINALISTAS TOP 50 -->
+    <!-- ===================================================================== -->
+    <section id="tab-rankings" class="tab-pane">
+      <div class="hero-card">
+        <div class="hero-content">
+          <span class="hero-tag"><i class="fa-solid fa-filter"></i> Embudo de Selección • 450 a 50 Mejores</span>
+          <h2>Tablero Calibrado y Selección de Finalistas</h2>
+          <p>Puntajes normalizados mediante Z-Score estadístico para equilibrar jurados estrictos y seleccionar los 50 proyectos que avanzan a la ronda final con jurados humanos.</p>
+        </div>
+        <div class="hero-stats">
+          <a href="/api/download-ranking-csv" class="btn-export-csv" id="btn-download-csv">
+            <i class="fa-solid fa-file-csv"></i> Descargar Libro Oficial en CSV
+          </a>
+        </div>
+      </div>
+
+      <!-- Cohort Summary Metric Cards -->
+      <div class="metric-cards-grid" id="metrics-summary-grid">
+        <div class="metric-card">
+          <span class="m-label">Proyectos Registrados</span>
+          <span class="m-val" id="metric-total-teams">--</span>
+        </div>
+        <div class="metric-card">
+          <span class="m-label">Media de Calificación</span>
+          <span class="m-val" id="metric-mean-score">--</span>
+        </div>
+        <div class="metric-card">
+          <span class="m-label">Puntaje de Corte (Rank #50)</span>
+          <span class="m-val" id="metric-cutoff-score">--</span>
+        </div>
+        <div class="metric-card highlight">
+          <span class="m-label">Finalistas Clasificados</span>
+          <span class="m-val" id="metric-top50-count">Top 50</span>
+        </div>
+      </div>
+
+      <!-- Table Search & Filter Bar -->
+      <div class="table-toolbar">
+        <div class="search-wrap">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="ranking-search" placeholder="Buscar por equipo, ID o proyecto...">
+        </div>
+        <div class="filter-wrap">
+          <select id="ranking-filter-track">
+            <option value="all">Todos los Semestres</option>
+            <option value="2">2do Semestre (Prototipos)</option>
+            <option value="4">4to Semestre (BMC)</option>
+            <option value="finalists">Solo Top 50 Finalistas</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Rankings Table -->
+      <div class="table-card">
+        <div class="table-responsive">
+          <table class="rankings-table" id="rankings-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>ID</th>
+                <th>Equipo / Venture</th>
+                <th>Semestre</th>
+                <th>Título del Proyecto</th>
+                <th>Media Cruda</th>
+                <th>Calibrado</th>
+                <th>Estatus</th>
+                <th>Dossier</th>
+              </tr>
+            </thead>
+            <tbody id="rankings-table-body">
+              <tr>
+                <td colspan="9" class="td-loading"><i class="fa-solid fa-spinner fa-spin"></i> Cargando calificaciones de la cohorte...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- TAB 5: RÚBRICA Y LINEAMIENTOS ACADÉMICOS -->
+    <!-- ===================================================================== -->
+    <section id="tab-guidelines" class="tab-pane">
+      <div class="guidelines-container">
+        <div class="card-article">
+          <div class="card-article-header">
+            <span class="badge-orange">Lineamiento 1</span>
+            <h3>Entregables de 2do Semestre: Feria de Prototipos</h3>
+          </div>
+          <p>El objetivo pedagógico central de segundo semestre es la tangibilización y validación empírica. No se aceptan presentaciones puramente teóricas sin demostración.</p>
+          <ul class="guideline-list">
+            <li><strong>Prototipo Funcional (TRL 3 o 4):</strong> Muestra física, biológica o código interactivo accesible.</li>
+            <li><strong>Video Pitch (3:00 min):</strong> Debe mostrar el prototipo en funcionamiento real con usuarios o pruebas técnicas.</li>
+            <li><strong>Bitácora de Iteración:</strong> Registro claro de al menos 2 fallas en pruebas previas y modificaciones realizadas.</li>
+          </ul>
+        </div>
+
+        <div class="card-article">
+          <div class="card-article-header">
+            <span class="badge-charcoal">Lineamiento 2</span>
+            <h3>Entregables de 4to Semestre: Business Model Canvas (BMC)</h3>
+          </div>
+          <p>El entregable central es la viabilidad económica y escalabilidad comercial bajo el marco metodológico de Alexander Osterwalder.</p>
+          <ul class="guideline-list">
+            <li><strong>Coherencia de los 9 Bloques:</strong> Relación directa y justificada entre propuesta de valor, canales y flujos de ingresos.</li>
+            <li><strong>Economía Unitaria:</strong> Estimación calculada de Costo de Adquisición de Clientes (CAC) y Valor de Vida del Cliente (LTV).</li>
+            <li><strong>Pitch de Tracción (3:00 min):</strong> Enfoque comercial hacia inversionistas ángel o fondos semilla.</li>
+          </ul>
+        </div>
+
+        <div class="card-article">
+          <div class="card-article-header">
+            <span class="badge-orange">Lineamiento 3</span>
+            <h3>Garantía de "Objetivo Justo" y Transparencia</h3>
+          </div>
+          <p>La Universidad Anáhuac Mayab implementa el panel sintético colegiado para asegurar que ningún estudiante dependa de la subjetividad o cansancio de un solo evaluador humano. Las calificaciones finales se calibran estadísticamente para normalizar la severidad entre paneles evaluadores.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================================================================== -->
+  <!-- MODAL: CONFIRMACIÓN Y FOLIO DE ENTREGA -->
+  <!-- ===================================================================== -->
+  <div class="modal-overlay" id="submission-modal">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+        <h3>¡Proyecto Registrado Exitosamente!</h3>
+        <p>Tu entrega ha sido recibida en el clúster institucional de Anáhuac Mayab.</p>
+      </div>
+      <div class="modal-body">
+        <div class="receipt-box">
+          <div class="receipt-row">
+            <span class="r-label">Folio Oficial:</span>
+            <span class="r-val" id="receipt-folio">ANH-2026-0000</span>
+          </div>
+          <div class="receipt-row">
+            <span class="r-label">Equipo:</span>
+            <span class="r-val" id="receipt-team">--</span>
+          </div>
+          <div class="receipt-row">
+            <span class="r-label">Track:</span>
+            <span class="r-val" id="receipt-track">--</span>
+          </div>
+          <div class="receipt-row">
+            <span class="r-label">Archivo Cargado:</span>
+            <span class="r-val" id="receipt-file">--</span>
+          </div>
+          <div class="receipt-row">
+            <span class="r-label">Fecha y Hora:</span>
+            <span class="r-val" id="receipt-date">--</span>
+          </div>
+        </div>
+
+        <div class="next-step-prompt">
+          <h4><i class="fa-solid fa-wand-magic-sparkles"></i> Siguiente Paso Recomendado:</h4>
+          <p>Ingresa a la <strong>Cabina de Sparring</strong> para ensayar tu pitch frente al avatar Mateo antes del cierre de evaluación.</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-action-primary" onclick="closeModalAndGoToSparring()">
+          <i class="fa-solid fa-video"></i> Ir a Ensayar con Avatar Mateo
+        </button>
+        <button type="button" class="btn-action-outline" onclick="closeModal()">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <p><strong>Universidad Anáhuac Mayab</strong> • Dirección de Emprendimiento e Innovación</p>
+        <p class="footer-sub">Carretera Mérida - Progreso Km. 15.5, Int. Km. 2 Carretera a Chablekal, 97310 Mérida, Yuc.</p>
+      </div>
+      <div class="footer-right">
+        <span>Prof. J. Christopher Westland • Sistema Autónomo de Triage e IA</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/static/app.js?v=20261022-scale-v4"></script>
+</body>
+</html>

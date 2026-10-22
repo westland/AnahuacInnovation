@@ -1,0 +1,90 @@
+---
+title: "Journal Outlets for Project Reporting"
+format: html
+editor: visual
+---
+
+To maximize visibility among deans, program directors, and researchers running entrepreneurship and innovation programs in **Latin America (especially Mexico), Spain, and the US**, you should target journals that specialize in either **Entrepreneurship/Management Education** or **Educational Technology / AI in Higher Education**.
+
+Below are the most strategic, high-profile journals organized by geography and editorial focus:
+
+---
+
+### 1. High-Impact Channels for Spain & Latin America (Spanish & Bilingual)
+
+Publishing here will directly catch the attention of academic leaders and innovation hub directors at institutions like **Tecnológico de Monterrey, UNAM, IPN, Universidad de Chile, IE University, Universidad de Navarra, and Mondragon**.
+
+*   **RIED: Revista Iberoamericana de Educación a Distancia (UNED, Spain)**
+
+    *   **Focus:** Digital transformation, AI, and scalable pedagogies in higher education.
+    *   **Profile:** Indexed in JCR / Scopus (Q1). It is arguably the most prestigious open-access journal in Ibero-America for scalable digital higher education. They frequently publish special issues on Generative AI.
+    *   **Language:** Spanish and English.
+
+*   **Comunicar (Spain)**
+
+    *   **Focus:** Media, technology, and emerging computational interfaces in education.
+    *   **Profile:** JCR / Scopus Top 1% (Q1). Extremely high citation rates across Spain and Latin America. Excellent if you emphasize the **conversational video avatar (Tavus)** interface and human-AI student interaction.
+    *   **Language:** Bilingual (published concurrently in English and Spanish).
+
+*   **Innovación Educativa (IPN, Mexico)**
+
+    *   **Focus:** Case studies and systemic pedagogical models in Latin America.
+    *   **Profile:** Indexed in SciELO, Latindex, Redalyc. Widely cited across Mexican public and private higher education ecosystems. Ideal for framing this as a solution to structural resource constraints (*"X NO hay coaches"*).
+
+*   **EDUTEC-e: Revista Electrónica de Tecnología Educativa (Spain)**
+
+    *   **Focus:** Practical, applied educational technology solutions.
+    *   **Profile:** Scopus-indexed. Very popular among university educational innovation centers across Spain and the Southern Cone.
+
+---
+
+### 2. High-Profile Global & US Channels: Entrepreneurship & Business Education
+
+If you want business school deans and entrepreneurship center directors (e.g., Babson, Stanford, MIT, Harvard, IE, Esade) to adopt this framework, target journals specializing in entrepreneurship pedagogy:
+
+*   **Academy of Management Learning & Education (AMLE) [AOM - US]**
+
+    *   **Focus:** Groundbreaking structural changes in management and entrepreneurship curriculum.
+    *   **Profile:** The undisputed premier journal (FT50 list, Q1). Very rigorous. If you report a controlled study showing that **5-judge synthetic agent panels provide grading parity/fairness (*Objetivo Justo*) equal to or better than overwhelmed human panels**, this is the gold standard target.
+
+*   **Entrepreneurship Education and Pedagogy (EE&P) [SAGE - US / Global]**
+
+    *   **Focus:** Dedicated entirely to innovations in entrepreneurship classrooms, bootcamps, and incubators.
+    *   **Profile:** Official journal of USASBE (United States Association for Small Business and Entrepreneurship). Highly read by university incubator managers and entrepreneurship faculty.
+
+*   **Education + Training (Emerald - UK / Global)**
+
+    *   **Focus:** The intersection of enterprise education, student employability, and new teaching methods.
+    *   **Profile:** Scopus Q1. Highly influential in the European entrepreneurship workout community.
+
+---
+
+### 3. High-Profile Global & US Channels: AI, Architecture & EdTech
+
+If your article emphasizes the technical design—such as the multi-agent consensus pipeline, local open-weight inference (vLLM/DeepInfra), and real-time avatar interaction:
+
+*   **International Journal of Educational Technology in Higher Education (ETHE) [Springer / UOC - Spain/Global]**
+
+    *   **Focus:** Systemic educational technology interventions in universities.
+    *   **Profile:** Open Access, Scopus Q1, very high impact factor. Jointly operated out of Barcelona and Latin American partner universities; read globally. It bridges Spanish, European, and US academic audiences seamlessly.
+
+*   **Computers & Education: Artificial Intelligence (Elsevier - Global / US)**
+
+    *   **Focus:** Purely dedicated to LLMs, autonomous agents, and AI systems in education.
+    *   **Profile:** The newest sister journal to *Computers & Education*. High velocity, perfectly suited for multi-agent LLM systems and synthetic judges.
+
+*   **IEEE Transactions on Learning Technologies (TLT)**
+
+    *   **Focus:** The engineering and software architecture behind educational systems.
+    *   **Profile:** Excellent if you want to publish the software pipeline, prompt engineering framework, and rubric-parsing agent orchestration.
+
+---
+
+### Recommended Publication & Framing Strategy
+
+To maximize academic prestige and cross-continental adoption, consider a two-step publication approach:
+
+| Phase | Target Channel | Article Angle / Framing |
+| :--- | :--- | :--- |
+| **1. Conference Bridge (Immediate Regional Reach)** | **IFE Conference** *(formerly CIIE at Tec de Monterrey, Mexico)* or **USASBE** *(US)* | Present this as a **practice-in-progress case study**: *"Scaling 450 Venture Pitches with Autonomous Synthetic Judges and LLM Avatars."* Tec de Monterrey's IFE conference is the single largest gathering of higher ed innovators in Latin America. |
+| **2. Formal Journal (High Citation & Policy Impact)** | **ETHE** (Springer/UOC) or **RIED** | Frame the study empirically: Compare the 450 projects evaluated by human coaches vs. evaluated by the AI panel. Measure **inter-rater reliability**, cost/time saved, and student perception of the Tavus avatar sparring partner. |

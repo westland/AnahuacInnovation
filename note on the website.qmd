@@ -1,0 +1,121 @@
+---
+title: "AMU Innovation-Entrepreneurship Workflow Dashboard"
+format: html
+editor: visual
+---
+
+
+
+#### **Live Web Portal & Custom Domain**
+
+- **Primary URL**: [**https://anahuac-innovation.com**](https://anahuac-innovation.com/)
+
+- **Subdomain**: [**https://www.anahuac-innovation.com**](https://www.anahuac-innovation.com/)
+
+- **SSL Gateway**: [**https://89.167.22.10.sslip.io**](https://89.167.22.10.sslip.io/)
+
+- **Cloudflare Zero Trust Tunnel**: `anahuac-portal-tunnel` (`845445b9-ee21-411b-81ba-501c5973f315`) running via `cloudflared.service` over QUIC edge connections on the Hetzner CX23 server.
+
+- **Backend Application**: FastAPI service (`anahuac-portal.service`) running on internal port `8500`, managed by systemd and reverse-proxied by Nginx.
+
+
+
+#### **Core Portal Features**
+
+1.  **Flujo de Entrega y Registro**:
+
+    - Dynamic track switching between **2do Semestre (*Feria de Prototipos*)** and **4to Semestre (*Business Model Canvas*)**.
+
+    - Video pitch URL validator with inline test playback.
+
+    - Direct drag & drop file upload dropzone supporting PDF, PPTX, BMC, PNG, and ZIP files up to 50 MB, stored in `/var/www/anahuac_portal/uploads/`.
+
+    - Generates official submission receipts with tracking folios (e.g. `ANH-2026-F1001`).
+
+2.  **Cabina de Sparring con Avatares IA**:
+
+    - **Mateo (Mentor en Español)**: PAL `p270626e4080`, 1-hour session room (<https://tavus.daily.co/c433f4ad79884418>).
+
+    - **Modalidad en Grupo**: One-click *"Copiar Enlace para Reunión en Grupo"* allows all 3–5 student team members to join simultaneously on video with Mateo to practice as a group.
+
+    - **Prof. Luna (English Track)**: PAL `p10847d10581`, 1-hour session room (<https://tavus.daily.co/c5f5dc60b7b8f4ee>).
+
+3.  **Panel de 5 Jueces Sintéticos (*Objetivo Justo*)**:
+
+    - Pre-audit simulator running the 5 distinct personas (*Finanzas, Mercado, Innovación, Pitch, Auditor Anáhuac*).
+
+    - Automated discrepancy detection (\>15 pts delta) and meta-verdict synthesis.
+
+4.  **Tablero de Calificaciones & Top 50 Finalistas**:
+
+    - Normal distribution Z-score calibration across the 450-team cohort with cutoff at **88.08/100**.
+
+    - Real-time search and track filters, 1-page executive investor dossiers for human judges, and direct CSV export.
+
+5.  **Rúbrica y Lineamientos**:
+
+    - Formal deliverables, TRL guidelines, and Osterwalder criteria.
+
+#### **Local GPU Engine & Backend Pipeline**
+
+- **Local Dual-Titan Server (`clawinc` / `100.77.93.2`)**:
+
+  - 2x GeForce GTX TITAN X GPUs (24GB combined VRAM, CUDA 13.0).
+
+  - Ollama systemd user service on `0.0.0.0:11434` powering `qwen2.5:14b` (\~2.5s latency) and `qwen3:32b`.
+
+  - Location:  Westland Guest Bedroom (3541 N Wilton #1, Chicago, IL)
+
+
+## Data (simulation)
+
+**100% synthetically generated data!**
+
+None of the projects on the dashboard are real student submissions—they were created by a benchmarking script (
+
+`simulate_large_cohort.py`) specifically to **stress-test the mathematical funnel at full scale (450 teams \$\\rightarrow\$ 50 finalists)** before real students arrive.
+
+The simulation generator is grounded the sample projects in the real-world regional innovation themes of **Universidad Anáhuac Mayab and the Yucatán Peninsula**:
+
+- **2do Semestre (*Feria de Prototipos*)**:
+
+  - Bio-bloques térmicos de sargazo y cal yucateca.
+
+  - Sensores IoT para colmenas de abeja melipona maya.
+
+  - Desalinizadores solares para ranchos ganaderos en Tizimín.
+
+  - Robots acuáticos autónomos para limpieza de cenotes en Homún/Cuzamá.
+
+  - Pellets combustibles de bagazo de henequén.
+
+- **4to Semestre (*Business Model Canvas*)**:
+
+  - Plataformas de visión artificial para citricultores de Oxkutzcab.
+
+  - Redes de micro-bodegas refrigeradas para la pesca en Progreso y Celestún.
+
+  - Microcréditos por WhatsApp para artesanas bordadoras en Maní y Teabo.
+
+  - Vajillas compostables de hoja de plátano para hoteles de la Riviera Maya.
+
+  - Kioscos escolares de triaje metabólico infantil en Mérida.
+
+
+**In production it starts completely blank.**
+
+1.  **Clean Slate at Launch**:
+
+    - The submissions database (`submissions.json`) starts with `0` records.
+
+    - The table displays: *"Esperando entregas de la cohorte Enero 2026..."*.
+
+2.  **As Real Teams Submit**:
+
+    - As students fill out Tab 1 (*Entrega y Registro*) and upload their BMCs, prototype specs, and video links, their real projects populate the database with official folio numbers (e.g., `ANH-2026-F1001`).
+
+3.  **Execution of the 5-Judge Panel**:
+
+    - When Phase 1 screening begins, the 5 Synthetic Judges run on your dual Titan GPUs against the **actual submitted text and files**.
+
+    - The Statistical Calibrator calculates the real mean (\$\\mu\$) and standard deviation (\$\\sigma\$) of the incoming January cohort, normalizes scores using Z-scores (\$S\_{cal} = 75 + 10z\$), flags borderline projects, and filters the real **Top 50 Finalistas** for the human jury.

@@ -1,0 +1,117 @@
+[
+  {
+    "team_id": "MAYAB-201",
+    "team_name": "SargazoTech BioBlocks",
+    "semester": 2,
+    "project_title": "Bloques Térmicos de Construcción a Base de Sargazo y Cal Yucateca",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_201",
+    "prototype_type": "Prototipo Físico Funcional (TRL 4)",
+    "prototype_description": "Bloque de mampostería ligero elaborado con 35% de biomasa de sargazo desalinizada y cal hidratada local. Reduce conductividad térmica en 42% frente al block tradicional de concreto.",
+    "target_user": "Constructoras residenciales y desarrollos hoteleros sustentables en la Riviera Maya y Mérida.",
+    "members": ["Rodrigo Alcocer", "Valeria Cetina", "Emilio Peón"]
+  },
+  {
+    "team_id": "MAYAB-202",
+    "team_name": "ApisDrone Yucatán",
+    "semester": 2,
+    "project_title": "Sensor Aéreo No Invasivo para Monitoreo de Colmenas Meliponas",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_202",
+    "prototype_type": "Prototipo Mecatrónico / IoT (TRL 3)",
+    "prototype_description": "Cápsula con micrófonos MEMS y sensor infrarrojo instalable en colmenas tradicionales de abeja melipona, conectada por LoRaWAN para alerta de plagas y temperatura.",
+    "target_user": "Comunidades mayas apícolas y cooperativas mieleras del oriente de Yucatán.",
+    "members": ["Santiago Chan", "Sofía Medina", "Carlos Canché"]
+  },
+  {
+    "team_id": "MAYAB-203",
+    "team_name": "AguaViva Solar",
+    "semester": 2,
+    "project_title": "Desalinizador Portátil de Pozo Cenote por Destilación Solar",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_203",
+    "prototype_type": "Prototipo Físico Funcional (TRL 4)",
+    "prototype_description": "Unidad parabólica compacta de aluminio pulido y policarbonato con capacidad de destilar 8 litros de agua salobre por día mediante radiación solar concentrada.",
+    "target_user": "Ranchos ganaderos y comunidades rurales sin conexión a red de agua potable en Tizimín.",
+    "members": ["Mariana Pacheco", "Diego Lizama", "Fernanda Zapata"]
+  },
+  {
+    "team_id": "MAYAB-204",
+    "team_name": "CenoteClean Robotics",
+    "semester": 2,
+    "project_title": "Robot Acuático Superficial Autónomo para Remoción de Microplásticos en Cenotes",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_204",
+    "prototype_type": "Prototipo Robótico / Firmware (TRL 4)",
+    "prototype_description": "Catamarán robótico eléctrico con filtro hidrodinámico multicapa, navegación GPS autónoma y recarga solar para filtrado de contaminantes flotantes y aceites solares.",
+    "target_user": "Parques ecoturísticos, cooperativas ejidales de cenotes en Homún y Cuzamá.",
+    "members": ["Alejandro Novelo", "Paulina Rivas", "Mateo Solís"]
+  },
+  {
+    "team_id": "MAYAB-205",
+    "team_name": "BioPellets Henequén",
+    "semester": 2,
+    "project_title": "Combustible Sólido de Alta Densidad Derivado del Bagazo de Henequén",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_205",
+    "prototype_type": "Prototipo de Material (TRL 3)",
+    "prototype_description": "Pellets extruidos con 85% fibra residual de henequén y 15% almidón de yuca como aglutinante orgánico con poder calorífico de 4,300 kcal/kg.",
+    "target_user": "Panaderías tradicionales, calderas de lavanderías industriales y restaurantes en Yucatán.",
+    "members": ["Sebastián Moguel", "Andrea Cámara"]
+  },
+  {
+    "team_id": "MAYAB-401",
+    "team_name": "AgroCítricos AI",
+    "semester": 4,
+    "project_title": "Plataforma de Alerta Temprana de Huanglongbing (HLB) con Visión Computacional para Citricultores",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_401",
+    "value_proposition": "Detección presintomática del dragón amarillo (HLB) con precisión del 94% mediante dron multiespectral + app móvil, salvando hasta el 35% del huerto cítrico antes de pérdida irreversible.",
+    "customer_segments": "Asociaciones de citricultores medianos y grandes de Oxkutzcab, Akil y Dzan.",
+    "revenue_streams": "Suscripción anual SaaS por hectárea ($450 MXN/ha/año) y diagnóstico especializado bajo demanda ($2,800 MXN por vuelo técnico).",
+    "cost_structure": "Mantenimiento de flota de drones comerciales DJI Mavic Multispectral, servidores de inferencia GPU en la nube, ingenieros agrónomos de soporte en campo.",
+    "members": ["Guillermo Escalante", "Lucía Gamboa", "Roberto Civeira"]
+  },
+  {
+    "team_id": "MAYAB-402",
+    "team_name": "MayaLogix ColdChain",
+    "semester": 4,
+    "project_title": "Red Descentralizada de Micro-Bodegas Refrigeradas Compartidas para la Pesca Artesanal",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_402",
+    "value_proposition": "Reducción de merma post-captura del 28% al 3% para cooperativas pulperas y de mero en Progreso y Celestún, garantizando trazabilidad y precio premium directo a restaurantes gourmet.",
+    "customer_segments": "Cooperativas de pescadores artesanales en la costa de Yucatán y cadenas de restaurantes de mariscos en Mérida y Cancún.",
+    "revenue_streams": "Comisión del 8% sobre transacción de venta directa con compradores gourmet y tarifa diaria por metro cúbico refrigerado ($65 MXN/m3/día).",
+    "cost_structure": "Leasing de contenedores refrigerados solares cerca de muelles de abrigo, consumo eléctrico fotovoltaico híbrido, sensorica IoT y logística de última milla.",
+    "members": ["Mauricio Canto", "Ana Karen Lara", "Gabriel Casares"]
+  },
+  {
+    "team_id": "MAYAB-403",
+    "team_name": "FinanMaya Comunitaria",
+    "semester": 4,
+    "project_title": "Microcréditos Productivos Inteligentes para Mujeres Artesanas Vía WhatsApp Bot",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_403",
+    "value_proposition": "Acceso a capital de trabajo de $3,000 a $15,000 MXN sin historial crediticio tradicional, evaluado mediante scoring psicométrico y de pedidos pre-vendidos de bordado textil.",
+    "customer_segments": "Artesanas mayas en Maní, Teabo y Tixkokob organizadas en colectivos textiles.",
+    "revenue_streams": "Tasa de interés productiva justa del 2.5% mensual (vs 12-15% del agio informal) y alianza con marketplace para colocación de producto.",
+    "cost_structure": "Licencia WhatsApp Business API, fondeo de cartera de crédito, compliance CNBV/Fintech y gestores comunitarios bilingües maya-español.",
+    "members": ["Ximena Peniche", "Manuel Erosa", "Daniela Baeza"]
+  },
+  {
+    "team_id": "MAYAB-404",
+    "team_name": "EcoVajilla Mayab",
+    "semester": 4,
+    "project_title": "Sustitución de Desechables de Unicel por Platos Compostables de Hoja de Plátano y Maíz",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_404",
+    "value_proposition": "Desechables 100% biodegradables en 45 días sin químicos tóxicos, a un costo 15% menor que los bioplásticos importados de aguacate.",
+    "customer_segments": "Hoteles todo incluido de Cancún y Riviera Maya, banquetes de bodas y restaurantes ecoturísticos de Yucatán.",
+    "revenue_streams": "Venta al mayoreo por millar de piezas ($1,250 MXN/millar) con contratos de suministro recurrente mensual.",
+    "cost_structure": "Adquisición de hojas de plátano de productores del sur del estado, prensas termoformadoras industriales, empaquetado hermético y distribución.",
+    "members": ["Jorge Rosado", "Natalia Millet"]
+  },
+  {
+    "team_id": "MAYAB-405",
+    "team_name": "K-Chek Salud Escolar",
+    "semester": 4,
+    "project_title": "Kioscos Digitales de Triaje Metabólico Preventivo y Nutrición en Colegios",
+    "video_pitch_url": "https://youtu.be/anahuac_pitch_405",
+    "value_proposition": "Detección temprana de riesgo de diabetes infantil y obesidad en niños de primaria con gamificación y reportes automáticos para padres de familia y pediatras escolares.",
+    "customer_segments": "Colegios privados y escuelas secundarias en la península de Yucatán.",
+    "revenue_streams": "Membresía anual por alumno pagada en colegiatura ($380 MXN/alumno/ciclo) + patrocinios de seguros médicos privados.",
+    "cost_structure": "Fabricación de kioscos de bioimpedancia interactivos, software clínico hipaa/cofepris, nutriólogos asesores.",
+    "members": ["Camila Barbachano", "Héctor Duarte", "Jimena Aguilar"]
+  }
+]

@@ -1,0 +1,11 @@
+rank,team_id,team_name,semester,project_title,raw_mean_score,calibrated_score,is_finalist
+1,MAYAB-401,AgroCítricos AI,4,Plataforma de Alerta Temprana de Huanglongbing (HLB) con Visión Computacional para Citricultores,82,84.75,True
+2,MAYAB-402,MayaLogix ColdChain,4,Red Descentralizada de Micro-Bodegas Refrigeradas Compartidas para la Pesca Artesanal,81.6,82.8,True
+3,MAYAB-201,SargazoTech BioBlocks,2,Bloques Térmicos de Construcción a Base de Sargazo y Cal Yucateca,81.4,81.83,True
+4,MAYAB-403,FinanMaya Comunitaria,4,Microcréditos Productivos Inteligentes para Mujeres Artesanas Vía WhatsApp Bot,81,79.88,False
+5,MAYAB-404,EcoVajilla Mayab,4,Sustitución de Desechables de Unicel por Platos Compostables de Hoja de Plátano y Maíz,81,79.88,False
+6,MAYAB-204,CenoteClean Robotics,2,Robot Acuático Superficial Autónomo para Remoción de Microplásticos en Cenotes,80.4,76.95,False
+7,MAYAB-202,ApisDrone Yucatán,2,Sensor Aéreo No Invasivo para Monitoreo de Colmenas Meliponas,79.6,73.05,False
+8,MAYAB-203,AguaViva Solar,2,Desalinizador Portátil de Pozo Cenote por Destilación Solar,79,70.12,False
+9,MAYAB-405,K-Chek Salud Escolar,4,Kioscos Digitales de Triaje Metabólico Preventivo y Nutrición en Colegios,79,70.12,False
+10,MAYAB-205,BioPellets Henequén,2,Combustible Sólido de Alta Densidad Derivado del Bagazo de Henequén,75,50.62,False
