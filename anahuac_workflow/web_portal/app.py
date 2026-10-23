@@ -242,9 +242,10 @@ async def launch_sparring_room(req: LaunchSparringRequest):
     name = f"Sparring Anahuac ({avatar_label})"
 
     context = (
+        "MANDATO ESTRICTO DE IDIOMA: Habla y comunícate EXCLUSIVAMENTE en ESPAÑOL en todo momento. NUNCA hables ni respondas en inglés bajo ninguna circunstancia. Todos tus saludos, preguntas socráticas, repreguntas y observaciones deben ser en español fluido, natural y motivador. "
         "Eres Mateo, mentor socrático de validación y modelos de negocio de la Universidad Anáhuac Mayab. "
         "Escucha atentamente el pitch del estudiante de 3 minutos y realiza preguntas incisivas y pedagógicas en español. "
-        "Permite que el estudiante hable sin interrupciones y mantén tus intervenciones concisas (1 a 2 oraciones), completando cada frase con fluidez."
+        "Permite que el estudiante hable sin interrupciones y mantén tus intervenciones concisas (1 a 2 oraciones), completando cada frase con fluidez en español."
         if avatar_key == "mateo" else
         "You are Professor Luna, global pitch judge and venture capital mentor at Universidad Anáhuac Mayab. "
         "You speak with a warm, breathy, captivating feminine voice. "
@@ -262,6 +263,8 @@ async def launch_sparring_room(req: LaunchSparringRequest):
             "max_call_duration": 3600
         }
     }
+    if avatar_key == "mateo":
+        payload["custom_greeting"] = asset["default_greeting"]
     headers = {
         "x-api-key": TAVUS_API_KEY,
         "Content-Type": "application/json"
@@ -375,14 +378,18 @@ async def get_socratic_question(req: SocraticQuestionRequest):
     try:
         ollama_url = "http://100.77.93.2:11434/api/generate"
         system_instruction = (
-            "Eres Mateo, mentor socrático de la Universidad Anáhuac Mayab. "
+            "Eres Mateo, mentor socrático de la Universidad Anáhuac Mayab. Habla y responde EXCLUSIVAMENTE en español mexicano fluido y conciso. NUNCA respondas en inglés."
             if is_mateo else
-            "You are Professor Luna, global pitch judge at Universidad Anahuac Mayab. "
+            "You are Professor Luna, global pitch judge at Universidad Anahuac Mayab. Respond exclusively in English."
         )
         prompt = (
-            f"Haz una pregunta socrática breve, desafiante y directa (máximo 2 oraciones) "
+            f"Haz una pregunta socrática breve, desafiante y directa (máximo 2 oraciones) en español "
             f"para un equipo de estudiantes que presenta su proyecto '{req.project_title}'. "
             f"Categoría: {req.category}. Semestre: {req.semester}."
+            if is_mateo else
+            f"Ask a short, challenging, direct Socratic question (maximum 2 sentences) in English "
+            f"for a student team presenting their venture '{req.project_title}'. "
+            f"Category: {req.category}. Semester: {req.semester}."
         )
         payload = {
             "model": "qwen2.5:14b",

@@ -13,6 +13,7 @@ from config import (
     TAVUS_API_KEY,
     TAVUS_API_BASE,
     REPLICA_MATEO,
+    PAL_MATEO_SPANISH,
     PARTICIPANT_ABSENT_TIMEOUT,
     PARTICIPANT_LEFT_TIMEOUT,
     MAX_CALL_DURATION
@@ -28,12 +29,18 @@ def generate_sparring_context(team: Dict[str, Any]) -> str:
     title = team.get("project_title", "Proyecto Estudiantil")
     team_name = team.get("team_name", "Equipo")
 
+    base_mandate = (
+        "MANDATO ESTRICTO DE IDIOMA: Habla y responde EXCLUSIVAMENTE en ESPAÑOL en todo momento. "
+        "NUNCA respondas en inglés bajo ninguna circunstancia. Todos tus saludos, preguntas y retroalimentación deben ser en español fluido y natural. "
+    )
+
     if semester == 2:
         # 2nd Semester: Innovación / Feria de Prototipos
         proto_desc = team.get("metadata", {}).get("prototype_description", "Prototipo en desarrollo")
         target_user = team.get("metadata", {}).get("target_user", "Usuarios objetivo")
         
         context = (
+            base_mandate +
             f"El equipo '{team_name}' está practicando su pitch para la 'Feria de Prototipos' de 2do Semestre de Anáhuac Mayab. "
             f"Proyecto: '{title}'. Descripción del prototipo: '{proto_desc}'. Usuario objetivo: '{target_user}'. "
             "INSTRUCCIONES DE COACHING SOCRÁTICO: Escucha atentamente la presentación del alumno. "
@@ -50,6 +57,7 @@ def generate_sparring_context(team: Dict[str, Any]) -> str:
         costs = team.get("metadata", {}).get("cost_structure", "Costos operativos")
         
         context = (
+            base_mandate +
             f"El equipo '{team_name}' está practicando su pitch de Business Model Canvas (BMC) de 4to Semestre de Anáhuac Mayab. "
             f"Proyecto: '{title}'. Propuesta de valor: '{val_prop}'. Ingresos: '{rev}'. Costos: '{costs}'. "
             "INSTRUCCIONES DE COACHING SOCRÁTICO DE NEGOCIOS: Escucha el pitch y haz preguntas tipo inversionista/VC: "
@@ -64,7 +72,8 @@ def generate_sparring_context(team: Dict[str, Any]) -> str:
 
 def create_avatar_sparring_session(
     team: Dict[str, Any],
-    replica_id: str = REPLICA_MATEO
+    replica_id: str = REPLICA_MATEO,
+    persona_id: str = PAL_MATEO_SPANISH
 ) -> Optional[Dict[str, Any]]:
     """Create a live Tavus Daily.co room for team pitch sparring with 1-hour timeout."""
     conversational_context = generate_sparring_context(team)
@@ -72,9 +81,11 @@ def create_avatar_sparring_session(
     team_id = team.get("team_id", "ANH")
 
     payload = {
+        "persona_id": persona_id,
         "replica_id": replica_id,
         "conversation_name": f"Sparring - {team_id} ({team_name})",
         "conversational_context": conversational_context,
+        "custom_greeting": "¡Hola! Soy Mateo, tu mentor socrático de Anáhuac Mayab. Comienza tu pitch de 3 minutos cuando estés listo; te escucharé con atención y te haré preguntas socráticas.",
         "properties": {
             "participant_absent_timeout": PARTICIPANT_ABSENT_TIMEOUT,  # 3600 seconds (1 hour)
             "participant_left_timeout": PARTICIPANT_LEFT_TIMEOUT,      # 300 seconds

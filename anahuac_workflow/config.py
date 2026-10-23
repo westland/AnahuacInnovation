@@ -28,8 +28,8 @@ REPLICA_MATEO = "rbb3d627a705"       # Mateo (Phoenix-4.5) Spanish
 REPLICA_LUNA = "r983d5889432"        # Luna (Phoenix-4.5) English
 
 # Personas / PAL IDs
-PAL_MATEO_SPANISH = "p270626e4080"
-PAL_PROFESSOR_ENGLISH = "p10847d10581"
+PAL_MATEO_SPANISH = "pd0f8ef69aaf"
+PAL_PROFESSOR_ENGLISH = "p2f0e8a584be"
 
 # Session Timeout Standards (in seconds)
 PARTICIPANT_ABSENT_TIMEOUT = 3600  # 1 hour wait before closing room

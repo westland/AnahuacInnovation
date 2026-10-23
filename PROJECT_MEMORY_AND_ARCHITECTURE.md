@@ -267,6 +267,35 @@ Located at `c:\Users\chris\Desktop\Mayra_projects_paper\anahuac_workflow\`:
   - [`anahuac_workflow/`](anahuac_workflow/): Full automated pipeline, 450-student calibrated dataset, executive dossiers, and FastAPI web portal SPA.
   - `.gitignore`: Configured to safeguard sensitive server passwords (`Tavus.txt`), environments, and Python build caches.
 
+---
+
+## 11. Mateo Avatar Spanish Language Resolution (October 2026 Fix)
+
+### 11.1 Problem Diagnosis
+* **Symptom**: The Spanish mentor avatar Mateo (`pd0f8ef69aaf`) was conversing in English instead of Spanish when launching sparring sessions on `https://anahuac-innovation.com/?tab=sparring`.
+* **Root Causes**:
+  1. **Tavus Persona Configuration**: Tavus persona `pd0f8ef69aaf` had `languages: []` (empty array) and `greeting: ""` (empty string). By default, when `languages` is unconfigured, Tavus's Speech-To-Text (STT) and LLM conversational engine default to English.
+  2. **Prompt Mandate**: The persona prompt lacked a strict language directive, allowing the internal LLM to fall back to English when greeting or responding to ambiguous speech.
+  3. **Browser Fallback Voice Selection**: When running speech synthesis in browser mode, `speakText` set `utterance.lang = "es-MX"` without binding an explicit Spanish voice from `window.speechSynthesis.getVoices()`, causing English Windows host voices to attempt reading Spanish phonemes.
+  4. **Config Sync**: `config.py` had an outdated persona ID `p270626e4080` instead of active persona `pd0f8ef69aaf`.
+
+### 11.2 Fixes Implemented
+1. **Tavus API Persona Update (`pd0f8ef69aaf`)**:
+   - Patched via RFC 6902 JSON patch:
+     - `languages`: `["es"]` (instructs Tavus STT to listen for Spanish phonemes and LLM to respond in Spanish).
+     - `greeting`: `"¡Hola! Soy Mateo, tu mentor socrático de la Universidad Anáhuac Mayab. Comienza tu pitch de 3 minutos cuando estés listo; te escucharé atentamente y te haré preguntas sobre tus supuestos de mercado y validación empírica."`
+     - `system_prompt`: Injected explicit `### MANDATO ESTRICTO DE IDIOMA: Habla y comunícate EXCLUSIVAMENTE en ESPAÑOL en todo momento. NUNCA respondas ni saludes en inglés bajo ninguna circunstancia...`
+2. **Dynamic Conversation Injections (`app.py` & `02_tavus_sparring_manager.py`)**:
+   - Injected `custom_greeting` and strict Spanish preamble into `conversational_context` on every `POST /v2/conversations` call.
+   - Enforced Spanish output in Qwen 2.5 local inference prompts for real-time Socratic question generation.
+3. **Browser Speech Synthesis Voice Matching (`static/app.js`)**:
+   - Implemented `getBestVoiceForLang` to dynamically search and bind a native Spanish voice (`/es|spanish|mexic|sabina|jorge|paulina/i`) to `utterance.voice`.
+4. **Live Deployment & Verification**:
+   - Deployed updated `app.py` and `app.js` to `/var/www/anahuac_portal/` on Hetzner CX23 (`89.167.22.10`).
+   - Reloaded Nginx and restarted `anahuac-portal.service`.
+   - Verified live session creation on `https://anahuac-innovation.com` returning active Spanish greeting and Spanish Socratic questions.
+
+
 
 
 

@@ -540,12 +540,38 @@ async function triggerSocraticChallenge(category = "prototype") {
   }
 }
 
+function getBestVoiceForLang(langCode) {
+  if (!('speechSynthesis' in window)) return null;
+  const voices = window.speechSynthesis.getVoices();
+  if (!voices || voices.length === 0) return null;
+  const prefix = langCode.substring(0, 2).toLowerCase();
+  let match = voices.find(v => v.lang && v.lang.toLowerCase() === langCode.toLowerCase());
+  if (!match) {
+    match = voices.find(v => v.lang && v.lang.toLowerCase().startsWith(prefix));
+  }
+  if (!match && prefix === 'es') {
+    match = voices.find(v => v.name && /spanish|español|mexic|sabina|jorge|paulina|helena|raul/i.test(v.name));
+  }
+  return match || null;
+}
+
+// Pre-warm voices list on supported browsers
+if (typeof window !== "undefined" && 'speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {
+    window.speechSynthesis.getVoices();
+  };
+}
+
 function speakText(text, lang = "es-MX") {
   if (!('speechSynthesis' in window)) return;
   try {
     window.speechSynthesis.cancel();
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = lang;
+    const voice = getBestVoiceForLang(lang);
+    if (voice) {
+      utterance.voice = voice;
+    }
     utterance.rate = 1.0;
     utterance.pitch = 1.0;
     window.speechSynthesis.speak(utterance);
