@@ -103,9 +103,49 @@ class SocraticQuestionRequest(BaseModel):
     project_title: Optional[str] = "Proyecto de Innovación"
 
 
+def is_tavus_conversation_active(conv_id: str) -> bool:
+    """
+    Directly query Tavus v2 API to verify whether a conversation room is genuinely still active.
+    Returns False immediately if conv_id is a fallback ID or if Tavus reports 'ended'.
+    """
+    if not conv_id or conv_id.startswith("studio-") or conv_id.startswith("active-"):
+        return False
+    try:
+        req = urllib.request.Request(
+            f"{TAVUS_API_BASE}/conversations/{conv_id}",
+            headers={"x-api-key": TAVUS_API_KEY}
+        )
+        with urllib.request.urlopen(req, timeout=4) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            return data.get("status") == "active"
+    except Exception as e:
+        print(f"Liveness check for {conv_id} failed: {e}")
+        return False
+
+
+def end_tavus_conversation(conv_id: str):
+    """Explicitly tell Tavus to end a conversation so room resources and concurrency are released."""
+    if not conv_id or conv_id.startswith("studio-") or conv_id.startswith("active-"):
+        return
+    try:
+        end_req = urllib.request.Request(
+            f"{TAVUS_API_BASE}/conversations/{conv_id}/end",
+            data=b"{}",
+            headers={"x-api-key": TAVUS_API_KEY, "Content-Type": "application/json"}
+        )
+        urllib.request.urlopen(end_req, timeout=4)
+    except Exception as e:
+        print(f"End Tavus conversation error for {conv_id}: {e}")
+
+
+class EndSparringRequest(BaseModel):
+    avatar: str = "mateo"
+    conversation_id: Optional[str] = None
+
+
 @app.get("/api/sparring/active-room")
 async def get_active_room(avatar: str = "mateo"):
-    """Check if an active room exists for the avatar and has not expired."""
+    """Check if an active room exists for the avatar and is genuinely alive on Tavus."""
     avatar_key = avatar.lower()
     if avatar_key not in AVATAR_ASSETS:
         avatar_key = "mateo"
@@ -113,7 +153,7 @@ async def get_active_room(avatar: str = "mateo"):
     room = ACTIVE_ROOMS.get(avatar_key)
     if room:
         age = (datetime.now() - room["created_at"]).total_seconds()
-        if age < 3600:
+        if age < 3600 and is_tavus_conversation_active(room.get("conversation_id")):
             return {
                 "active": True,
                 "avatar": avatar_key,
@@ -125,8 +165,11 @@ async def get_active_room(avatar: str = "mateo"):
                 "greeting": asset["default_greeting"],
                 "remaining_seconds": max(0, 3600 - int(age))
             }
+        else:
+            # Purge terminated or timed out room
+            ACTIVE_ROOMS.pop(avatar_key, None)
     return {
-        "active": True,
+        "active": False,
         "avatar": avatar_key,
         "avatar_name": asset["name"],
         "video_url": asset["video_url"],
@@ -138,11 +181,22 @@ async def get_active_room(avatar: str = "mateo"):
     }
 
 
+@app.post("/api/sparring/end-room")
+async def end_sparring_room(req: EndSparringRequest):
+    """Explicitly terminate a sparring session on Tavus and clear from memory cache."""
+    avatar_key = req.avatar.lower()
+    existing = ACTIVE_ROOMS.pop(avatar_key, None)
+    conv_id = req.conversation_id or (existing.get("conversation_id") if existing else None)
+    if conv_id:
+        end_tavus_conversation(conv_id)
+    return {"success": True, "message": f"Room for {avatar_key} ended and cleared from cache."}
+
+
 @app.post("/api/sparring/launch-room")
 async def launch_sparring_room(req: LaunchSparringRequest):
     """
     Launch or activate the interactive Avatar Sparring Studio.
-    Guarantees that the student screen is immediately brought up without failure.
+    Guarantees that a live, active room is provided without 'meeting ended' errors.
     """
     avatar_key = req.avatar.lower()
     if avatar_key not in AVATAR_ASSETS:
@@ -151,27 +205,37 @@ async def launch_sparring_room(req: LaunchSparringRequest):
     asset = AVATAR_ASSETS[avatar_key]
     fallback_conv_url = f"https://anahuac-innovation.com/?tab=sparring&avatar={avatar_key}"
 
-    # Reuse active room if fresh and force_new is not requested
+    # If force_new is False, check if an existing room is STILL ACTIVE on Tavus
     if not req.force_new:
         existing = ACTIVE_ROOMS.get(avatar_key)
         if existing and existing.get("daily_url"):
             age = (datetime.now() - existing["created_at"]).total_seconds()
-            if age < 3000:  # Valid up to 50 minutes
-                return {
-                    "success": True,
-                    "reused": True,
-                    "avatar": avatar_key,
-                    "avatar_name": asset["name"],
-                    "video_url": asset["video_url"],
-                    "image_url": asset["image_url"],
-                    "conversation_url": existing["conversation_url"],
-                    "daily_url": existing["daily_url"],
-                    "conversation_id": existing["conversation_id"],
-                    "greeting": asset["default_greeting"],
-                    "lang": asset["lang"],
-                    "remaining_seconds": max(0, 3600 - int(age)),
-                    "mode": "interactive_studio"
-                }
+            if age < 3000:  # Within 50 min
+                if is_tavus_conversation_active(existing.get("conversation_id")):
+                    return {
+                        "success": True,
+                        "reused": True,
+                        "avatar": avatar_key,
+                        "avatar_name": asset["name"],
+                        "video_url": asset["video_url"],
+                        "image_url": asset["image_url"],
+                        "conversation_url": existing["conversation_url"],
+                        "daily_url": existing["daily_url"],
+                        "conversation_id": existing["conversation_id"],
+                        "greeting": asset["default_greeting"],
+                        "lang": asset["lang"],
+                        "remaining_seconds": max(0, 3600 - int(age)),
+                        "mode": "interactive_studio"
+                    }
+                else:
+                    # Stale / terminated room: purge immediately from memory
+                    print(f"Purging stale/ended room {existing.get('conversation_id')} for {avatar_key}")
+                    ACTIVE_ROOMS.pop(avatar_key, None)
+
+    # Clean up previous room for this avatar if present
+    old_room = ACTIVE_ROOMS.pop(avatar_key, None)
+    if old_room and old_room.get("conversation_id"):
+        end_tavus_conversation(old_room.get("conversation_id"))
 
     persona_id = PAL_MATEO_SPANISH if avatar_key == "mateo" else PAL_PROFESSOR_ENGLISH
     avatar_label = "Mateo" if avatar_key == "mateo" else "Prof. Luna"
@@ -221,7 +285,7 @@ async def launch_sparring_room(req: LaunchSparringRequest):
     except urllib.error.HTTPError as e:
         err_msg = e.read().decode("utf-8", "ignore")
         if "maximum concurrent" in err_msg.lower() or e.code == 400:
-            # End previous active rooms to free up concurrent slot
+            # End previous active rooms across account to free up concurrent slot
             try:
                 list_req = urllib.request.Request(f"{TAVUS_API_BASE}/conversations?limit=15", headers=headers)
                 with urllib.request.urlopen(list_req, timeout=10) as lresp:
@@ -244,12 +308,13 @@ async def launch_sparring_room(req: LaunchSparringRequest):
     conv_url = tavus_room_url or fallback_conv_url
     conv_id = tavus_room_id or f"studio-{avatar_key}-{uuid.uuid4().hex[:6]}"
 
-    ACTIVE_ROOMS[avatar_key] = {
-        "conversation_url": conv_url,
-        "daily_url": tavus_room_url,
-        "conversation_id": conv_id,
-        "created_at": datetime.now()
-    }
+    if tavus_room_url:
+        ACTIVE_ROOMS[avatar_key] = {
+            "conversation_url": conv_url,
+            "daily_url": tavus_room_url,
+            "conversation_id": conv_id,
+            "created_at": datetime.now()
+        }
 
     return {
         "success": True,

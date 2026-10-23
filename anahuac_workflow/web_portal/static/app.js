@@ -307,7 +307,7 @@ let pitchRemainingSeconds = 180;
 let sessionTimerInterval = null;
 let sessionSecondsRemaining = 3600;
 
-async function launchSparringSession(avatar = "mateo", isGroupCopyOnly = false, forceNew = false) {
+async function launchSparringSession(avatar = "mateo", isGroupCopyOnly = false, forceNew = true) {
   currentAvatarInSession = avatar;
   const btnSolo = document.getElementById(avatar === "mateo" ? "btn-join-mateo-solo" : "btn-join-luna-solo");
   const origHtml = btnSolo ? btnSolo.innerHTML : "";
@@ -373,8 +373,8 @@ async function copyLiveRoomLink(avatar = "mateo") {
     }
   }
 
-  // If no room generated yet, generate one on demand and copy
-  await launchSparringSession(avatar, true);
+  // If no room generated yet, request room (reusing active if available) and copy
+  await launchSparringSession(avatar, true, false);
 }
 
 function openStudioBooth(data, avatar = "mateo") {
@@ -684,6 +684,23 @@ function toggleFullscreenStudio() {
 function closeEmbeddedRoom() {
   const container = document.getElementById("embedded-room-container");
   if (container) container.style.display = "none";
+
+  // Completely unhook the Daily iframe so it leaves the WebRTC call immediately
+  const dailyFrame = document.getElementById("avatar-daily-frame");
+  if (dailyFrame) {
+    dailyFrame.src = "about:blank";
+  }
+
+  // Notify server to end Tavus room and evict cache
+  const closedAvatar = currentAvatarInSession;
+  fetch("/api/sparring/end-room", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ avatar: closedAvatar })
+  }).catch(e => console.log("End room note:", e));
+
+  activeLiveRooms[closedAvatar] = null;
+
   if (studentStream) {
     studentStream.getTracks().forEach(t => t.stop());
     studentStream = null;
